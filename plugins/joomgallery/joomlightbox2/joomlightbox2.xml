@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="joomgallery" method="upgrade">
+  <name>PLG_JOOMGALLERY_JOOMLIGHTBOX2</name>
+  <author>JoomGallery::ProjectTeam</author>
+  <creationDate>02/26/2013</creationDate>
+  <copyright>Copyright (C) 2013 - 2013 Open Source Matters. All rights reserved.</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <authorEmail>team@joomgallery.net</authorEmail>
+  <authorUrl>http://www.en.joomgallery.net</authorUrl>
+  <version>1.0</version>
+  <description>PLG_JOOMGALLERY_JOOMLIGHTBOX2_XML_DESCRIPTION</description>
+  <files>
+    <filename plugin="joomlightbox2">joomlightbox2.php</filename>
+    <filename>index.html</filename>
+  </files>
+  <media>
+    <folder>plg_joomlightbox2</folder>
+  </media>
+  <languages folder="language">
+    <language tag="de-DE">de-DE/de-DE.plg_joomgallery_joomlightbox2.ini</language>
+    <language tag="de-DE">de-DE/de-DE.plg_joomgallery_joomlightbox2.sys.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_joomgallery_joomlightbox2.ini</language>
+    <language tag="en-GB">en-GB/en-GB.plg_joomgallery_joomlightbox2.sys.ini</language>
+  </languages>
+  <config>
+    <fields name="params">
+      <fieldset name="basic">
+        <field name="global_box_existent" type="radio" default="0" label="PLG_JOOMGALLERY_JOOMLIGHTBOX2_GLOBAL_BOX_EXISTENT_LABEL" description="PLG_JOOMGALLERY_JOOMLIGHTBOX2_GLOBAL_BOX_EXISTENT_DESC" class="btn-group">
+          <option value="0">JNO</option>
+          <option value="1">JYES</option>
+        </field>
+      </fieldset>
+    </fields>
+  </config>
+  <updateservers>
+    <server type="collection" priority="1" name="JoomGallery Update Service">http://www.en.joomgallery.net/components/com_newversion/xml/extensions3.xml</server>
+  </updateservers>
+</extension>

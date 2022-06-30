@@ -1,0 +1,140 @@
+@import url('../font/opensans/stylesheet.css');
+@import url('../font/myriadsetprothin/stylesheet.css');
+@import url('../font/myriadsetpromedium/stylesheet.css');
+
+/*****Menu CSS*****/
+.container-fluid.container-main{margin-top:-10px; padding-left:0; padding-bottom: 30px;}
+.container-fluid.container-main .row-fluid{position: relative;}
+.container-fluid.container-main .span2{width: auto; left: 0; height:100%; background:#333333;  position: absolute; z-index:999; left:-223px; padding-bottom:50px; }
+
+.container-fluid.container-main .span2.fixedsidebar{position: fixed; top:74px; height:100%;}
+
+.container-fluid.container-main .span10{ width:calc(100% - 70px); margin-left:70px;}
+.sidebar-nav .nav-list{ padding-left:0; padding-right:0;}
+
+.task- #sidebar .sidebar-nav .nav-list, .task-cancel #sidebar .sidebar-nav .nav-list{padding:20px 15px 20px;}
+#submenu span {display: inline-block; height: 40px; width: 40px; vertical-align: middle; position:relative; background:url('../images/menuicons/sprite.png') no-repeat;}
+
+.desktopview ul#submenu li:first-child{display:none;}
+ul#submenu li a{line-height: 40px; width: 220px; padding:0; margin:0; position: relative; display:inline-block; text-shadow: unset; color: #ffffff;}
+ul#submenu li:first-child span{background-position:0px 0px;}
+ul#submenu li:nth-child(2) span{background-position:-40px 0;}
+ul#submenu li:nth-child(3) span{background-position:-760px 0;}
+ul#submenu li:nth-child(4) span{background-position:-240px 0;}
+ul#submenu li:nth-child(5) span{background-position:-280px 0;}
+ul#submenu li:nth-child(6) span{background-position:-320px 0;}
+ul#submenu li:nth-child(7) span{background-position:-360px 0;}
+ul#submenu li:nth-child(8) span{background-position:-200px 0;}
+ul#submenu li:nth-child(9) span{background-position:-800px 0;}
+ul#submenu li:nth-child(10) span{background-position:-120px 0;}
+ul#submenu li:nth-child(11) span{background-position:-160px 0;}
+ul#submenu li:nth-child(12) span{background-position:-440px 0;}
+ul#submenu li:nth-child(13) span{background-position:-840px 0;}
+ul#submenu li:nth-child(14) span{background-position:-480px 0;}
+ul#submenu li:nth-child(15) span{background-position:-400px 0;}
+ul#submenu li:nth-child(16) span{background-position:-80px 0;}
+ul#submenu li:nth-child(17) span{background-position:-680px 0;}
+ul#submenu li:nth-child(18) span{background-position:-520px 0;}
+ul#submenu li:nth-child(19) span{background-position:-560px 0;}
+ul#submenu li:nth-child(20) span{background-position:-600px 0;}
+ul#submenu li:nth-child(21) span{background-position:-720px 0;}
+ul#submenu li:nth-child(22) span{background-position:-640px 0;}
+
+/**Hover CSS**/
+ul#submenu li:hover a{background-color:#333333; color:#aeaeae;}
+.nav > li > a:hover, .nav > li > a:focus{background-color:#333333;}
+ul#submenu li:hover a span{background:url('../images/menuicons/sprite.png') no-repeat;}
+ul#submenu li:first-child:hover span, ul#submenu li.active:first-child span{background-position:0px -40px;}
+ul#submenu li:nth-child(2):hover span, ul#submenu li.active:nth-child(2) span{background-position:-40px -40px;}
+ul#submenu li:nth-child(3):hover span, ul#submenu li.active:nth-child(3) span{background-position:-760px -40px;}
+ul#submenu li:nth-child(4):hover span, ul#submenu li.active:nth-child(4) span{background-position:-240px -40px;}
+ul#submenu li:nth-child(5):hover span, ul#submenu li.active:nth-child(5) span{background-position:-280px -40px;}
+ul#submenu li:nth-child(6):hover span, ul#submenu li.active:nth-child(6) span{background-position:-320px -40px;}
+ul#submenu li:nth-child(7):hover span, ul#submenu li.active:nth-child(7) span{background-position:-360px -40px;}
+ul#submenu li:nth-child(8):hover span, ul#submenu li.active:nth-child(8) span{background-position:-200px -40px;}
+ul#submenu li:nth-child(9):hover span, ul#submenu li.active:nth-child(9) span{background-position:-800px -40px;}
+ul#submenu li:nth-child(10):hover span, ul#submenu li.active:nth-child(10) span{background-position:-120px -40px;}
+ul#submenu li:nth-child(11):hover span, ul#submenu li.active:nth-child(11) span{background-position:-160px -40px;}
+ul#submenu li:nth-child(12):hover span, ul#submenu li.active:nth-child(12) span{background-position:-440px -40px;}
+ul#submenu li:nth-child(13):hover span, ul#submenu li.active:nth-child(13) span{background-position:-840px -40px;}
+ul#submenu li:nth-child(14):hover span, ul#submenu li.active:nth-child(14) span{background-position:-480px -40px;}
+ul#submenu li:nth-child(15):hover span, ul#submenu li.active:nth-child(15) span{background-position:-400px -40px;}
+ul#submenu li:nth-child(16):hover span, ul#submenu li.active:nth-child(16) span{background-position:-80px -40px;}
+ul#submenu li:nth-child(17):hover span, ul#submenu li.active:nth-child(17) span{background-position:-680px -40px;}
+ul#submenu li:nth-child(18):hover span, ul#submenu li.active:nth-child(18) span{background-position:-520px -40px;}
+ul#submenu li:nth-child(19):hover span, ul#submenu li.active:nth-child(19) span{background-position:-560px -40px;}
+ul#submenu li:nth-child(20):hover span, ul#submenu li.active:nth-child(20) span{background-position:-600px -40px;}
+ul#submenu li:nth-child(21):hover span, ul#submenu li.active:nth-child(21) span{background-position:-720px -40px;}
+ul#submenu li:nth-child(22):hover span, ul#submenu li.active:nth-child(22) span{background-position:-640px -40px;}
+
+.criticalfeature {color:#545454; background:#F2F2F2; padding:0 0px 20px; position:absolute; height:100%; z-index:10; border-right: 1px solid #ffffff;}
+.criticalfeature  h3{ color:#051836; margin-bottom:25px; font-family: 'myriad_set_prothin'; font-size:22px; font-weight:normal; margin-top:30px; padding-left:40px;}
+.criticalfeature .div_enable{ font-size:14px; }
+.criticalfeature .div_enable > div{ padding: 15px 40px; text-transform: capitalize; border-bottom:1px solid #fff;}
+.criticalfeature .div_enable > div p{ text-transform: uppercase; margin-bottom:0;}
+.container-fluid.container-main .span2.sidegrid{ position:static; background:#EBF2FA;}
+
+.span9.graphs{padding:30px 30px; margin-left:282px !important; width:calc(74.3094% - 282px); border-right:1px solid #fff;}
+.span9.graphs h3{margin-bottom: 25px; margin-top: 0; font-family: 'myriad_set_prothin'; font-size:22px; font-weight:normal;}
+#container-security, #container_pie_country, #container_graph{box-shadow: 1px 1px 2px #ccc; -moz-box-shadow: 1px 1px 2px #ccc; -ms-box-shadow: 1px 1px 2px #ccc; -o-box-shadow: 1px 1px 2px #ccc; -webkit-box-shadow: 1px 1px 2px #ccc;}
+#container_graph{ margin-top:30px !important;}
+.criticalfeature .div_enable{font-family: 'myriad_set_promedium'; color:#4d4d4d;}
+.criticalfeature .div_enable.on > div{ background:#D6D6D6;}
+.span3.sidegrid{margin-left: 2.5641%; margin-left:0; /*width:calc(22.9282% + 35px)*/ width:25.6282%;}
+.sidegridwrap{ color:#333333; font-family: 'myriad_set_prothin'; font-size:24px;}
+.ticketwrap{background:url('../images/menuicons/tickets.jpg') no-repeat; background-position:center; background-size: cover; padding: 15px 10px; border-radius:3px; margin-top:35px; width:100%; /*margin-left: 25px;*/ box-sizing: border-box;}
+.ticketwrap a{ font-family: 'myriad_set_promedium'; font-size:14px; background:rgba(255,255,255,1); color:#333; display: inline-block; padding:3px 15px; border-radius:3px;}
+
+.socialwrap{background:#d6d6d6; background-position:center; background-size: cover; padding: 15px 10px; border-radius:3px; margin-top:20px;  width:100%; margin-bottom:20px; box-sizing: border-box;}
+.socialwrap ul{margin:0;}
+.socialwrap ul li{list-style-type:none; display:inline-block; padding-right:0px;}
+.versioncontainer{padding:0 25px; }
+.versionwrap{background:#333333; background-position:center; background-size: cover; padding: 15px 10px; border-radius:3px; margin-top:20px; color:#fff; box-sizing:border-box; font-size:18px;}
+.versionwrap p{margin-bottom:0;}
+.versionwrap a{background:rgba(255,255,255,0.4); color:#fff; font-weight:bold; display: inline-block; padding:3px 15px; border-radius:3px; margin-top:10px;}
+.span9.graphs .row-fluid .span6{}
+.container-fluid.container-main .span2 .mCSB_container{margin-right:0;}
+.sidepanel-overlay{ position:fixed; width:100%; height:100%; display:none; top:0;}
+tspan{font-family: 'myriad_set_prothin' !important;}
+.sidebar-nav .nav-list > li.active > a{background: none;}
+.container-fluid{padding-right:0;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background: #aeaeae !important; }
+.sidegridcontainer{ border-bottom: 1px solid #fff; padding:0 25px;}
+.sidegridcontainer p{padding-bottom:10px;}
+#system-message-container, #j-main-container{padding:0;}
+#j-main-container .alert-success{border-radius:0;}
+#j-main-container .alert-success .alert{margin-bottom: 18px;}
+@media only screen and (max-width: 1350px) {
+.span9.graphs .row-fluid .span6{ margin-left:5px;}
+}
+@media only screen and (max-width: 1200px) {
+    /*.span3.sidegrid{margin-left:15px;}*/
+    .span9.graphs .row-fluid .span6{ margin-left:0px;}
+}
+@media only screen and (max-width: 1024px) {
+    .criticalfeature{display:none;}
+	.span9.graphs{margin-left: 0 !important; width: 74.3094%;}
+}
+
+@media only screen and (max-width: 768px){
+	.desktopview ul#submenu li:first-child{ display:block;}
+	.span9.graphs{width:100%;}
+	.span3.sidegrid{ margin-left:0; padding:0px 30px; width:100%;}
+	.ticketwrap, .socialwrap, .versionwrap{width:100%;}
+	.container-fluid.container-main .span2{position:absolute; top: 0; left: -223px; height:100% !important;}
+	.task- #sidebar .sidebar-nav .nav-list, .task-cancel #sidebar .sidebar-nav .nav-list{padding: 20px 15px;}
+	.container-fluid.container-main .span10{margin-left: 50px; width: calc(100% - 50px);}
+	#container-security{margin-bottom:30px !important;}
+	.sidegridcontainer, .versioncontainer{ padding: 0;}
+	.ticketwrap{margin-top:0;}
+	
+}
+@media only screen and (max-width: 767px){
+	body.mobileview{padding-left:0;}
+	body.mobileview .navbar, body.mobileview .navbar-fixed-top{padding-left:20px;}
+	body.mobileview .header{padding-left:40px;}
+	body.mobileview .subhead-collapse.collapse{padding-left:20px;}
+}
+@media only screen and (min-width: 769px){
+	.container-fluid.container-main .span2{}
+}

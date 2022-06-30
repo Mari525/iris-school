@@ -1,0 +1,24 @@
+  <a  href="{URL}"  title="{TITLE}"    >
+
+    <div  style="width:100%; height:200px;  background-size:cover; background-image:url({IMAGE_SRC})"   >
+
+    </div>
+
+      </a>
+<!--
+<p> {DATE}  </p>
+-->
+
+     <a   href="{URL}" title="{TITLE}"       >
+    <h4>
+     {TITLE}
+     </h4>
+     </a>
+
+
+  <!--
+ <p>  {TEXT}  </p>
+ -->
+
+
+

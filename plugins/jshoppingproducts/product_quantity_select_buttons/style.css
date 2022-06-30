@@ -1,0 +1,10 @@
+.count_block .btn {
+	display:inline-block;
+	border:1px solid #cccccc;
+}
+.count_block button.btn.list-btn.count {
+	padding:6px 10px;
+}
+.count_block .btn.quantity {
+	max-width:55px;
+}

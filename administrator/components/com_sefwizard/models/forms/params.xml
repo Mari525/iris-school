@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fields name="params" addfieldpath="/administrator/components/com_sefwizard/models/fields">
+		<fieldset name="remove_id">
+			<field type="spacerpopover" class="add-spacer first" name="remove_id_spacer" label="COM_SEFWIZARD_ID_SPACER_LABEL" description="COM_SEFWIZARD_ID_SPACER_DESCRIPTION" />
+			<field 
+				name="id_com_content" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_ID_COM_CONTENT_LABEL" 
+				description="COM_SEFWIZARD_ID_COM_CONTENT_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="id_com_contact" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_ID_COM_CONTACT_LABEL" 
+				description="COM_SEFWIZARD_ID_COM_CONTACT_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="id_com_tags" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_ID_COM_TAGS_LABEL" 
+				description="COM_SEFWIZARD_ID_COM_TAGS_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="id_com_newsfeeds" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_ID_COM_NEWSFEEDS_LABEL" 
+				description="COM_SEFWIZARD_ID_COM_NEWSFEEDS_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+		</fieldset>
+		
+		<fieldset name="duplicate_handling">
+			<field type="spacerpopover" class="add-spacer first" name="duplicate_spacer_standard" label="COM_SEFWIZARD_DUPLICATE_STANDARD_SPACER_LABEL" description="COM_SEFWIZARD_DUPLICATE_STANDARD_SPACER_DESCRIPTION" />
+			<field 
+				name="duplicate_standard" 
+				type="list" 
+				label="COM_SEFWIZARD_DUPLICATE_STANDARD_METHOD_LABEL" 
+				description="COM_SEFWIZARD_DUPLICATE_STANDARD_METHOD_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_DISABLED</option>
+				<option value="1">COM_SEFWIZARD_DUPLICATE_REDIRECT</option>
+				<option value="2">COM_SEFWIZARD_DUPLICATE_ERROR</option>
+				<option value="3">COM_SEFWIZARD_DUPLICATE_CANONICAL</option>
+			</field>
+			<field
+				name="duplicate_standard_mode" 
+				type="list" 
+				label="COM_SEFWIZARD_DUPLICATE_STANDARD_HANDLING_MODE_LABEL" 
+				description="COM_SEFWIZARD_DUPLICATE_STANDARD_HANDLING_MODE_DESCRIPTION" 
+				default="1" 
+				>
+				<option value="0">COM_SEFWIZARD_DUPLICATE_STANDARD_HANDLING_MODE_LIGHT</option>
+				<option value="1">COM_SEFWIZARD_DUPLICATE_STANDARD_HANDLING_MODE_MEDIUM</option>
+				<option value="2">COM_SEFWIZARD_DUPLICATE_STANDARD_HANDLING_MODE_STRICT</option>
+			</field>
+			<field type="spacerpopover" class="add-spacer" name="duplicate_spacer_third_party" label="COM_SEFWIZARD_DUPLICATE_THIRD_PARTY_SPACER_LABEL" description="COM_SEFWIZARD_DUPLICATE_THIRD_PARTY_SPACER_DESCRIPTION" />
+			<field 
+				name="duplicate_third_party" 
+				type="list" 
+				label="COM_SEFWIZARD_DUPLICATE_THIRDPARTY_LABEL" 
+				description="COM_SEFWIZARD_DUPLICATE_THIRDPARTY_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_DISABLED</option>
+				<option value="1">COM_SEFWIZARD_DUPLICATE_REDIRECT</option>
+				<option value="2">COM_SEFWIZARD_DUPLICATE_ERROR</option>
+				<option value="3">COM_SEFWIZARD_DUPLICATE_CANONICAL</option>
+			</field>
+			<field type="spacerpopover" class="add-spacer" name="duplicate_spacer_nonsef_index" label="COM_SEFWIZARD_DUPLICATE_INDEXING_SPACER_LABEL" description="COM_SEFWIZARD_DUPLICATE_INDEXING_SPACER_DESCRIPTION" />
+			<field
+				name="duplicate_nonsef_noindex" 
+				type="list" 
+				label="COM_SEFWIZARD_DUPLICATE_NONSEF_NOINDEX_LABEL" 
+				description="COM_SEFWIZARD_DUPLICATE_NONSEF_NOINDEX_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_DUPLICATE_NONSEF_NOINDEX</option>
+				<option value="2">COM_SEFWIZARD_DUPLICATE_NONSEF_CANONICAL</option>
+			</field>
+			<field
+				name="duplicate_raw_noindex" 
+				type="list" 
+				label="COM_SEFWIZARD_DUPLICATE_RAW_NOINDEX_LABEL" 
+				description="COM_SEFWIZARD_DUPLICATE_RAW_NOINDEX_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_DUPLICATE_NONSEF_NOINDEX</option>
+			</field>
+		</fieldset>
+		
+		<fieldset name="com_content_sef">
+			<field type="spacerpopover" class="add-spacer first" name="pagination_spacer" label="COM_SEFWIZARD_PAGINATION_SPACER_LABEL" description="COM_SEFWIZARD_PAGINATION_SPACER_DESCRIPTION" />
+			<field
+				name="pagination_rewrite" 
+				type="radio" 
+				label="COM_SEFWIZARD_PAGINATION_REWRITE_LABEL" 
+				description="COM_SEFWIZARD_PAGINATION_REWRITE_DESCRIPTION" 
+				class="btn-group btn-group-yesno"
+				default="0"
+				>
+				<option value="0">COM_SEFWIZARD_DISABLED</option>
+				<option value="1">COM_SEFWIZARD_ENABLED</option>
+			</field>
+			<field 
+				name="page_tag" 
+				type="text" 
+				label="COM_SEFWIZARD_PAGE_TAG_LABEL" 
+				description="COM_SEFWIZARD_PAGE_TAG_DESCRIPTION" 
+				default="page"
+				showon="pagination_rewrite:1"
+			/>
+			<field 
+				name="showall_tag" 
+				type="text" 
+				label="COM_SEFWIZARD_SHOWALL_TAG_LABEL" 
+				description="COM_SEFWIZARD_SHOWALL_TAG_DESCRIPTION" 
+				default="showall"
+				showon="pagination_rewrite:1"
+			/>
+			<field
+				name="rewrite_meta"
+				type="radio" 
+				label="COM_SEFWIZARD_REWRITE_META_LABEL"
+				description="COM_SEFWIZARD_REWRITE_META_DESCRIPTION"
+				showon="pagination_rewrite:1"
+				class="btn-group btn-group-yesno"
+				default="1"
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="title_mask" 
+				type="text" 
+				label="COM_SEFWIZARD_TITLE_MASK_LABEL" 
+				description="COM_SEFWIZARD_TITLE_MASK_DESCRIPTION" 
+				default="%t (%p %n)"
+				showon="pagination_rewrite:1[AND]rewrite_meta:1"
+			/>
+			<field 
+				name="description_mask" 
+				type="text" 
+				label="COM_SEFWIZARD_DESCRIPTION_MASK_LABEL" 
+				description="COM_SEFWIZARD_DESCRIPTION_MASK_DESCRIPTION" 
+				default="%d (%p %n)"
+				showon="pagination_rewrite:1[AND]rewrite_meta:1"
+			/>
+			<field
+				name="set_firstpage_noindex" 
+				type="radio"
+				label="COM_SEFWIZARD_SET_FIRSTPAGE_NOINDEX_LABEL" 
+				description="COM_SEFWIZARD_SET_FIRSTPAGE_NOINDEX_DESCRIPTION" 
+				default="1"
+				showon="pagination_rewrite:1"
+				class="btn-group btn-group-yesno"
+				>
+				<option value="1">COM_SEFWIZARD_YES</option>
+				<option value="0">COM_SEFWIZARD_NO</option>
+			</field>
+			<field
+				name="set_showall_noindex" 
+				type="radio"
+				label="COM_SEFWIZARD_SET_SHOWALL_NOINDEX_LABEL" 
+				description="COM_SEFWIZARD_SET_SHOWALL_NOINDEX_DESCRIPTION" 
+				default="1"
+				showon="pagination_rewrite:1"
+				class="btn-group btn-group-yesno"
+				>
+				<option value="1">COM_SEFWIZARD_YES</option>
+				<option value="0">COM_SEFWIZARD_NO</option>
+			</field>
+		</fieldset>
+		
+		<fieldset name="common_sef">
+			<field type="spacerpopover" class="add-spacer first" name="common_sef_spacer" label="COM_SEFWIZARD_COMMON_SEF_LABEL" description="COM_SEFWIZARD_COMMON_SEF_SPACER_DESCRIPTION" />
+			<field 
+				name="fix_tag_routing" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_FIX_TAG_ROUTING_LABEL" 
+				description="COM_SEFWIZARD_FIX_TAG_ROUTING_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field type="spacerpopover" class="add-spacer" name="smart_error_handler_template_spacer" label="COM_SEFWIZARD_SMART_ERROR_HANDLER_TEMPLATE_SPACER_LABEL" description="COM_SEFWIZARD_SMART_ERROR_HANDLER_TEMPLATE_SPACER_DESCRIPTION" />
+			<field 
+				name="smart_error_handler" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_SMART_ERROR_HANDLER_LABEL" 
+				description="COM_SEFWIZARD_SMART_ERROR_HANDLER_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="smart_error_handler_stack" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_SMART_ERROR_HANDLER_STACK_LABEL" 
+				description="COM_SEFWIZARD_SMART_ERROR_HANDLER_STACK_DESCRIPTION" 
+				default="0"
+				showon="smart_error_handler:1"
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field type="spacerpopover" class="add-spacer" name="smart_error_handler_email_spacer" label="COM_SEFWIZARD_SMART_ERROR_HANDLER_EMAIL_SPACER_LABEL" description="COM_SEFWIZARD_SMART_ERROR_HANDLER_EMAIL_SPACER_DESCRIPTION" />
+			<field 
+				name="smart_error_handler_email" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_SMART_ERROR_HANDLER_EMAIL_LABEL" 
+				description="COM_SEFWIZARD_SMART_ERROR_HANDLER_EMAIL_DESCRIPTION" 
+				default="0"
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="smart_error_handler_email_addr" 
+				type="email"
+				label="COM_SEFWIZARD_SMART_ERROR_HANDLER_EMAIL_ADDR_LABEL" 
+				description="COM_SEFWIZARD_SMART_ERROR_HANDLER_EMAIL_ADDR_DESCRIPTION" 
+				showon="smart_error_handler_email:1"
+			/>
+		</fieldset>
+		
+		<fieldset name="engine_settings">
+			<field type="spacerpopover" class="add-spacer first" name="redirect_manager_spacer" label="COM_SEFWIZARD_REDIRECT_MANAGER_SPACER_LABEL" description="COM_SEFWIZARD_REDIRECT_MANAGER_SPACER_DESCTIPTION" />
+			<field 
+				name="redirect_manager_enabled" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_REDIRECT_MANAGER_ENABLED_LABEL" 
+				description="COM_SEFWIZARD_REDIRECT_MANAGER_ENABLED_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			<field 
+				name="redirect_manager_convert_punycode" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_REDIRECT_MANAGER_CONVERT_PUNYCODE_LABEL" 
+				description="COM_SEFWIZARD_REDIRECT_MANAGER_CONVERT_PUNYCODE_DESCRIPTION" 
+				showon="redirect_manager_enabled:1"
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_NO</option>
+				<option value="1">COM_SEFWIZARD_YES</option>
+			</field>
+			
+			<field type="spacerpopover" class="add-spacer" name="third_party_spacer" label="COM_SEFWIZARD_THIRD_PARTY_SPACER_LABEL" description="COM_SEFWIZARD_THIRD_PARTY_SPACER_DESCTIPTION" />
+			<field 
+				name="wbamp_integration" 
+				type="radio"
+				class="btn-group btn-group-yesno"
+				label="COM_SEFWIZARD_THIRD_PARTY_WBAMP_LABEL" 
+				description="COM_SEFWIZARD_THIRD_PARTY_WBAMP_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_DISABLED</option>
+				<option value="1">COM_SEFWIZARD_ENABLED</option>
+			</field>
+			<field type="spacerpopover" class="add-spacer" name="debug_spacer" label="COM_SEFWIZARD_DEBUG_SPACER_LABEL" description=" " />
+			<field 
+				name="script_execution_time" 
+				type="list" 
+				label="COM_SEFWIZARD_SCRIPT_EXECUTION_TIME_LABEL" 
+				description="COM_SEFWIZARD_SCRIPT_EXECUTION_TIME_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_DEBUG_DISABLED</option>
+				<option value="1">COM_SEFWIZARD_SCRIPT_EXECUTION_TIME_CONSOLE</option>
+				<option value="2">COM_SEFWIZARD_SCRIPT_EXECUTION_TIME_PAGE</option>
+			</field>
+			<field 
+				name="show_router_variables" 
+				type="list" 
+				label="COM_SEFWIZARD_SHOW_ROUTER_VARIABLES_LABEL" 
+				description="COM_SEFWIZARD_SHOW_ROUTER_VARIABLES_DESCRIPTION" 
+				default="0" 
+				>
+				<option value="0">COM_SEFWIZARD_DEBUG_DISABLED</option>
+				<option value="1">COM_SEFWIZARD_SHOW_ROUTER_VARIABLES_PAGE</option>
+			</field>
+		</fieldset>
+	</fields>
+</form>

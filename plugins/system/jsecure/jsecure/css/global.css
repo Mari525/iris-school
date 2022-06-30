@@ -1,0 +1,54 @@
+@font-face {
+    font-family: 'calibrilight';
+    src: url('../fonts/calibril.eot');
+    src: url('../fonts/calibril.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/calibril.woff') format('woff'),
+         url('../fonts/calibril.ttf') format('truetype'),
+         url('../fonts/calibril.svg#calibrilight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* { margin:0; padding:0; outline:0; }
+img { max-width:100%; }
+
+/*Clearfix*/
+*,*:after, *:before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;padding: 0;margin: 0;}
+.clearfix:before, .clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+
+/*MainGrids*/
+html,body{width:100%;height:100%;}
+body{background:#ecf0f1;}
+
+
+.mainwrapper{width:100%;}
+.mainwrapper .maincontainer{max-width:960px;margin:auto;width:98%}
+
+
+.maincontainer .jsecure-form-grid{width:355px;height:497px;margin:auto;background:#fff;padding:40px;}
+.jsecure-form-grid .jsecure-logo-grid
+{width:139px;height:139px;margin:70px auto 20px;border:5px solid #f5f7f8;background:url(../images/login-logo.jpg) no-repeat center center;text-indent:-10000px;}
+
+.jsecure-form-grid h4.jsecure-login-title
+{text-transform:uppercase;font-family:calibrilight;font-weight:bold;font-size:18px;color:#65707a;text-align:center;letter-spacing: 1px;margin:0 0 50px;}
+.jsecure-form-grid h4.jsecure-login-title:after{background:#51c4d4;content:"";display:block;height:3px;left:63px;position:relative;top:5px;width:150px;}
+
+.jsecure-form-grid form.jsecure-submit-form{}
+.jsecure-form-grid form.jsecure-submit-form .textbox
+{width:274px;height:44px;border:1px solid #dae4e7;padding:8px;color:#65707a;background:#ecf0f1;text-align:center;font-family:calibrilight;
+letter-spacing:1px;font-size:18px;margin:0 0 14px;
+-webkit-transition: all 0.25s ease-out;-moz-transition: all 0.25s ease-out;-o-transition:all 0.25s ease-out;transition: all 0.25s ease-out;}
+.jsecure-form-grid form.jsecure-submit-form .textbox:focus
+{box-shadow:1px 3px 3px #ccc inset;-webkit-box-shadow:1px 3px 3px #ccc inset;-moz-box-shadow:1px 3px 3px #ccc inset;-o-box-shadow:1px 3px 3px #ccc inset}
+
+
+.jsecure-form-grid form.jsecure-submit-form .button
+{width:274px;height:42px;background:#51c4d4;border:none;border-bottom:2px solid #49b0be;font-family:calibrilight;font-weight:bold;color:#fff;font-size:18px;letter-spacing:1px;
+-webkit-transition:all 0.25s ease-out;-moz-transition:all 0.25s ease-out;-o-transition: all 0.25s ease-out;transition: all 0.25s ease-out;}
+.jsecure-form-grid form.jsecure-submit-form .button:hover{background:#147B88;cursor:pointer;}
+
+
+
+
+

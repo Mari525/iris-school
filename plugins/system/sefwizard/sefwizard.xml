@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="plugin" version="3.7.1" group="system" method="upgrade">
+	<name>plg_system_sefwizard</name>
+	<version>3.9.3.1</version>
+	<creationDate>2016-01-01</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<copyright>Copyright Philip Sorokin. All rights reserved.</copyright>
+	<author>Philip Sorokin</author>
+	<authorEmail>philip.sorokin@gmail.com</authorEmail>
+	<authorUrl>https://addondev.com</authorUrl>
+	<description>PLG_SYSTEM_SEFWIZARD_DESCRIPTION</description>
+	<scriptfile>installer.php</scriptfile>
+	<files>
+		<filename plugin="sefwizard">sefwizard.php</filename>
+		<filename plugin="sefwizard">license</filename>
+		<folder plugin="sefwizard">fields</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.plg_system_sefwizard.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_system_sefwizard.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_sefwizard.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.plg_system_sefwizard.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/sefwizard/fields/">
+			<fieldset name="basic">
+				<field type="addhelper" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

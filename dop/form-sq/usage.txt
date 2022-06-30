@@ -1,0 +1,12 @@
+ <div class="letter" id="sqknopka2"  >
+                          РќР°РїРёС€РёС‚Рµ РЅР°Рј
+                           </div>
+								   
+								   
+<?php  
+     include_once 'dop/form-sq/form.php';
+?>
+
+
+ДЛЯ ОТЛАДКИ - РАСКОММЕНТИРОВАТЬ SEND.PHP строку 43
+//$mail->SMTPDebug = 2; 

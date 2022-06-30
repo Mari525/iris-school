@@ -1,0 +1,64 @@
+  #table_shippings input.btn,
+   div.control-group  button.btn,
+  div.table_order_list     button.btn ,
+  div.box_button input.button
+     { font-size:23px;   width:70%; text-align:center; padding:5px 0; margin:10px auto;  background-color:green !important }
+
+/* portrait only */
+
+@media screen and (orientation:portrait )
+{
+ h1, div.jg-header  {     font-size:29px; line-height:32px;   margin:10px 0; font-weight:400;  border-bottom:1px dotted #625b5b;  }
+ h2                 {     font-size:26px; line-height:29px;   margin:10px 0; font-weight:400;  }
+ h3                 {     font-size:23px; line-height:28px;   margin:10px 0; font-weight:400;    }
+ h4                 {     font-size:23px; line-height:26px;   margin:10px 0; font-weight:400;    }
+ h5                 {     font-size:20px; line-height:23px;   margin:10px 0; font-weight:400;    }
+ h6                 {     font-size:17px; line-height:20px;   margin:10px 0; font-weight:800;  }
+
+      /* to all */
+      div.blog table tr td  {display:block; clear:both;float:none; border:0px dotted green !important; width:90vw !important;}
+      div.blog table tr td h2, div.blog table tr td h2 a {font-size:19px; line-height:26px;  }
+      div.category-list table tr td   {display:block; clear:both;float:none; border:2px dotted green ; width:90vw; padding:0px 0 5px 0 !important}
+       div.item-page div.item-image, div.item-page div.item-image img  { width:100%;  }
+      /* to all */
+
+
+           /* fonts */
+      div.item-page,  div.item-page p, div.item-page ul li, div.category_description p,
+div.moduletable p, div.moduletable div, div.moduletable li, div.blog p, div.jshop_prod_description, #comjshop_list_product div.description,
+div.manufacturer_name
+       { font-size:15px; line-height:20px;  }
+
+      div.custompolosa  *  { font-size:14px !important;; line-height:26px !important;  }
+
+
+}
+
+/* landscape only */
+@media screen and (orientation:landscape)
+
+{
+       /* to all */
+       div.blog div.item-image img  {width:100%; margin:0px 20px 20px 0   }
+       div.blog table tr td.blog-picture     {width:30% !important; margin:0px 20px 0px 0   }
+       div.blog table tr td.blog-description {width:70% !important; margin:0px 20px 0px 0   }
+       div.category-list table tr td   {display:block; clear:both;float:none; border:2px dotted green ; width:90vw; padding:0px 0 5px 0 !important}
+        div.blog div.item-image img-  {width:250px; margin:0px 20px 20px 0   }
+
+        #center   div.item-page div.item-image  {float:left;   width:40%;   margin:10px 10px 10px 0}
+         #center   div.item-page div.item-image img  { width:100%; }
+        /* to all */
+
+          #banner p, #joomimg p { font-size:16px !important;; line-height:20px !important;  }
+
+          /* hor menu    */
+div.moduletablehormenu span  a {  font-size:18px; white-space:  nowrap;  line-height:25px; }
+
+                 /* fonts */
+         div.item-page,  div.item-page p, div.item-page ul li, div.category_description p,
+div.moduletable p, div.moduletable div, div.moduletable li, div.blog p, div.jshop_prod_description, #comjshop_list_product div.description,
+div.manufacturer_name  { font-size:15px; line-height:20px;  }
+ div.custompolosa  *  { font-size:17px !important;; line-height:26px !important;  }
+
+
+}

@@ -1,0 +1,150 @@
+
+ h1, div.jg-header, div.blog h2 span.subheading-category,  div.content-category  h2
+   {  text-align:center; font-family:  'Montserrat', courier, sans-serif;   font-size:42px; line-height:49px;   margin:10px 0; font-weight:400;    }
+ h2                 {  font-family: "Sansation", courier,  sans-serif;    font-size:29px; line-height:39px;   margin:10px 0; font-weight:400;  }
+ div.item-page h3       font-family: "Sansation", courier,  sans-serif;           {     font-size:26px; line-height:32px;   margin:10px 0; font-weight:400;    }
+ h4                 {  font-family: "Sansation", courier,  sans-serif;    font-size:26px; line-height:32px;   margin:10px 0; font-weight:800;    }
+ h5                 {   font-family: "Sansation", courier,  sans-serif;   font-size:23px; line-height:29px;   margin:10px 0; font-weight:400;    }
+ h6                 {  font-family: "Sansation", courier,  sans-serif;    font-size:20px; line-height:26px;   margin:10px 0; font-weight:800;  }
+
+
+
+
+/* news module */
+div.nspArt *   { text-align:center}
+div.nspArt  a  h4 {font-size:20px; LINE-HEIGHT:24PX; text-align:center;  font-weight:400; color:#055d4c; margin:20px auto }
+div.nspArt  a {text-decoration:none}
+div.nspArt  p   {  text-align:justify;   }
+div.nspArt  table tr td img   {width:20px;}
+div.nspArt  a  h4:hover {color:#09ba99}
+
+
+ /* news page */
+ table.category  tr td.list-title   {text-align:left }
+ td.list-date   {text-align:left; width:200px }
+
+
+/* pagination */
+ul.pagination  li, div.pagination ul li {display:inline; margin:0 5px}
+ul.pagination  li span {text-decoration:none; margin:0 10px}
+ul.pagination  li  a {text-decoration:underline; margin:0 10px}
+div.jshop_pagination, div.pagination, div.pagination p, div.pagination  ul  {width:auto; text-align:center;  font-size:17px}
+
+
+ul.actions, ul.actions li   {list-style-type:none; text-align:left  }
+div.item-page ul, div.item-page ol  { list-style-position:inside }
+ul.actions,   ul.pagenav     { list-style-type:none; display:inline;  position:relative; top:0px  ;  }
+
+a {outline:0; border:0; outline: none; }
+a:focus { outline: none; }
+
+ /* center tables */
+div.item-page table td, div.item-page table th {padding:10px; vertical-align:top;  }
+div.item-page table caption { text-align:center;   font-size:22px; line-height:20px;  color:#625b5b; margin:10px 0;   font-variant:small-caps; font-weight:800 }
+div.item-page table td, div.item-page table th, div.item-page table   { border-color:#0597c9;  }
+div.item-page table  {  border-color:#0597c9;  border-style:inherit }
+
+   /* blog  */
+  #center  div.blog table tr td {text-align:left; border:0px solid green; padding:0 20px 20px 0; vertical-align:top  }
+    div.blog table  {border:0px solid green; width:100%}
+    div.blog div.item-image img  {width:300px; margin:0px 20px 20px 0   }
+    td.blog-picture  {  }
+    td.blog-description  p {  }
+    td.blog-description  h2  {  font-size:22px; line-height:25px; }
+    div.blog div.podr {width:180px; background-color:#265a95; color:#ffffff; text-align:center; font-size:17px; line-height:35px; height:35px; margin-top:20px }
+
+
+   #center   div.item-page div.item-image  {float:left;   width:360px;   margin:10px 20px 10px 0}
+   #center   div.item-page div.item-image img  { width:100%; }
+
+   #center   div.item-page  table.vert  tr td  img  {  height:230px }
+   #center   div.item-page  table.vert  tr td p,  #center   div.item-page  table.vert  tr td div {margin:0}
+
+    dl.article-info *  {  font-size:17px; margin:0; padding:0}
+    dl.article-info  { margin:10px 0; padding:0}
+
+     table.category  {margin:auto}
+    table.category tr td {padding:10px 0}
+
+
+div.item-page ul,  div.item-page ol {list-style-position:outside; margin-left:50px}
+
+strike {text-decoration:line-through }
+
+
+input[type=text], input[type=button]:focus, input[type=button]:hover, input[type=button]:visited, input[type=button]:active,
+button, button:active, button:focus,button:active, button:visited,
+* button, * button:active, * button:focus,* button:active, * button:visited,
+input[type=submit],
+input[type=password],
+* input[type=text], * input[type=text]:focus,* input[type=text]:hover,* input[type=text]:visited,* input[type=text]:active, * input[type=button],
+* input[type=button]:focus, * input[type=button]:hover, * input[type=button]:visited,* input[type=button]:active,
+* input[type=password],* input[type=password]:focus,* input[type=password]:hover,* input[type=password]:visited, * input[type=password]:active
+ { border-image-width:0;   outline: none; -webkit-appearance: none;    -moz-appearance: none;  }
+
+
+ /* joomgallery */
+div.jg_catelem_txt ul li {text-align:center; border:0px solid green}
+div.jg_element_cat   {margin:0 1px}
+div.jg_element_gal  {text-align:center;  border:0px solid green;}
+div.jg_element_txt  *  {text-align:center;  }
+div.jg_element_txt ul li a {font-size:20px; line-height:25px; }
+div.jg_subcatelem_cat   *  {text-align:center;  }
+div.jg_subcatelem_txt a   { font-size:20px; line-height:25px; }
+
+
+ /* login page,  registration page  */
+  div.login  fieldset,  div.registration fieldset { border-color:#72a0f4; }
+ div.login  label,  div.registration  label, legend { font-size:20px; }
+
+
+
+
+ /* category page  */
+ div.content-category    table.category  tr td a {font-size:20px; line-height:25px}
+ div.content-category h2 {margin-left:10px}
+
+ .fr {float:right; margin:10px; margin-right:0px}
+ .fl {float:left; margin:10px; margin-left:0px}
+
+
+
+
+div.letter  {  padding:5px 7px;    margin:auto; cursor:pointer }
+
+
+  /*      user area     */
+
+  div.moduletable_usermenu {margin:20px 0 }
+
+  div.moduletable_usermenu  ul li a { display-:inline;  font-weight:800px; font-size:20px; margin-right:0px; color:#fff }
+
+  div.control-group  button.btn,
+  div.table_order_list     button.btn ,
+  div.box_button input.button
+{
+  text-decoration:none; text-align:center; padding:0px 34px;
+  border-radius: 4px;
+ font:18px Arial, Helvetica, sans-serif; line-height:18px;  height:38px; cursor:hand;   cursor:pointer;
+ font-weight:400;
+ color:#ffffff; background-color:#144786; border:0px  solid #004F72; }
+
+ #member-profile  div.control-group a.btn,  ul.nav-tabs li a  {font-size:20px; text-decoration:underline}
+  .table_order_list .buttons { text-align: left; }
+  .myorders_block_info{margin-bottom: 0px; }
+  .myorders_block_info .order_status,   .myorders_block_info {  font-size:18px; line-height:24px;  }
+  div.myorders_block_info    {    border: 1px solid green; margin:20px 0;  padding:20px }
+  .myorders_block_info   div.products  { margin:0px }
+  .myorders_block_info .order_status{ margin: 0px; }
+  .table_order_list { background-color: #ffffff; border: 0px solid #fff;  padding: 0px; }
+div.alert-error  button {width:20px; height:20px; text-align:center }
+div.profile-edit input   {text-align: center;width:250px; height:30px; font-size:20px; margin-bottom:10px; font-size:20px; }
+div.profile-edit fieldset  {border-width:0}
+div.block_button_register input {width:250px;  border:2px  solid green }
+div.login .control-label  { border:0px  solid green}
+div.login .controls  { border:0px  solid green;}
+div.login    #remember    { position:relative; top:-28px; left:160px; width:50px}
+
+div.registration  a    {  font-size:18px; line-height:24px;  text-decoration:underline}
+div.small_header, div.logintext     {  font-size:18px; line-height:24px; font-weight:700 }
+

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="1.0" type="plugin" method="upgrade" group="jshoppingproducts">
+    <name>JoomShopping - Show quantity buttons </name>
+    <author>Brooksus</author>
+    <creationDate>21/12/2016</creationDate>
+    <copyright>Copyright by Brooksite.ru. All rights reserved.</copyright>
+    <license>The MIT License (MIT)</license>
+    <authorEmail>brooksus@yandex.ru</authorEmail>
+    <authorUrl>http://brooksite.ru/</authorUrl>
+    <version>0.0.1</version>
+    <description>Joomshopping. Show quantity buttons.</description>
+    <files>
+        <filename plugin="product_quantity_select_buttons">product_quantity_select_buttons.php</filename>
+        <filename>index.html</filename>
+        <filename>style.css</filename>
+        <filename>helper_count.php</filename>
+		<filename>helper_count_list.php</filename>
+		<filename>helper_count_cart.php</filename>
+    </files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">								
+				<field	name="view_qtyminus"	type="text"	default=""	label="Кнопка минус (оставьте пустым или впишите класс иконочного шрифта)"	description=""	required="false" filter="string"	size="40" />
+				
+				<field	name="view_qtyplus"	type="text"	default=""	label="Кнопка плюс (оставьте пустым или впишите класс иконочного шрифта)"	description=""	required="false" filter="string"	size="40" />
+				
+				<field name="include_to_list" type="radio" class="btn-group" default="1" label="Вывести кнопки в списке товаров" description="">
+                    <option value="0">Нет</option>
+                    <option value="1">Да</option>
+                </field>
+				
+				<field	name="ident_qty_list"	type="text"	default="_tmp_var_buttons"	label="Идентификатор для вывода в списке товаров"	description=""	required="true" filter="string"	size="40" />
+				
+				<field name="include_to_prod" type="radio" class="btn-group" default="1" label="Вывести кнопки в карточке товара" description="">
+                    <option value="0">Нет</option>
+                    <option value="1">Да</option>
+                </field>
+				
+				<field	name="ident_qty_prod_minus"	type="text"	default="_tmp_qty_unit"	label="Идентификатор для вывода кнопки минус в карточке товара"	description=""	required="true" filter="string"	size="40" />
+				
+				<field	name="ident_qty_prod_plus"	type="text"	default="_tmp_qty_unit"	label="Идентификатор для вывода кнопки плюс в карточке товара"	description=""	required="true" filter="string"	size="40" />
+				
+				<field name="include_to_cart" type="radio" class="btn-group" default="1" label="Вывести кнопки на странице корзины" description="">
+                    <option value="0">Нет</option>
+                    <option value="1">Да</option>
+                </field>
+				
+                <field name="include_css" type="radio" class="btn-group" default="1" label="Подключить стили CSS" description="">
+                    <option value="0">Нет</option>
+                    <option value="1">Да</option>
+                </field>
+				
+            </fieldset>
+        </fields>
+    </config>
+</extension>

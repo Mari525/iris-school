@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="package" version="3.7.1" method="upgrade">
+	<name>pkg_sefwizard</name>
+	<packagename>sefwizard</packagename>
+	<version>3.9.3.1</version>
+	<creationDate>2016-01-01</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<copyright>Copyright Philip Sorokin. All rights reserved.</copyright>
+	<author>Philip Sorokin</author>
+	<authorEmail>philip.sorokin@gmail.com</authorEmail>
+	<authorUrl>https://addondev.com</authorUrl>
+	<description>PKG_SEFWIZARD_DESCRIPTION</description>
+	<scriptfile>installer.php</scriptfile>
+	<files>
+		<folder type="component" id="com_sefwizard">com_sefwizard</folder>
+		<folder type="plugin" id="sefwizard" group="system">plg_system_sefwizard</folder>
+	</files>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.pkg_sefwizard.sys.ini</language>
+		<language tag="ru-RU">ru-RU/ru-RU.pkg_sefwizard.sys.ini</language>
+	</languages>
+	<updateservers>
+		<server type="extension" name="SEF Wizard update server">http://addondev.com/support/updates/sefwizard.xml?30cc9488a18d020feaef9627563d785c_shop4.ellips-web.ru</server>
+	</updateservers>
+</extension>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="component" version="3.7.1" method="upgrade">
+	<name>com_sefwizard</name>
+	<version>3.9.3.1</version>
+	<creationDate>2016-01-01</creationDate>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html</license>
+	<copyright>Copyright Philip Sorokin. All rights reserved.</copyright>
+	<author>Philip Sorokin</author>
+	<authorEmail>philip.sorokin@gmail.com</authorEmail>
+	<authorUrl>https://addondev.com</authorUrl>
+	<description>COM_SEFWIZARD_DESCRIPTION</description>
+	<scriptfile>installer.php</scriptfile>
+	
+	<files folder="site">
+		<filename>sefwizard.php</filename>
+		<filename>controller.php</filename>
+		<filename>license</filename>
+		<folder>views</folder>
+		<folder>assets</folder>
+	</files>
+	
+	<administration>
+		
+		<menu img="class:sefwizard">COM_SEFWIZARD_COMPONENT</menu>
+		
+		<submenu>
+			<menu link="option=com_sefwizard&amp;view=file&amp;file=robots" img="class:robots"
+				alt="SEF Wizard/Robots">COM_SEFWIZARD_ROBOTS_EDITOR</menu>
+			<menu link="option=com_sefwizard&amp;view=redirects" img="class:redirects"
+				alt="SEF Wizard/Redirects">COM_SEFWIZARD_REDIRECT_MANAGER</menu>
+			<menu link="option=com_sefwizard&amp;layout=settings" img="class:settings"
+				alt="SEF Wizard/Settings">COM_SEFWIZARD_SEF_SETTINGS</menu>
+		</submenu>
+		
+		<files folder="admin">
+			<filename>sefwizard.php</filename>
+			<filename>controller.php</filename>
+			<filename>config.xml</filename>
+			<filename>license</filename>
+			<folder>assets</folder>
+			<folder>models</folder>
+			<folder>helpers</folder>
+			<folder>views</folder>
+		</files>
+		
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB/en-GB.com_sefwizard.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_sefwizard.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_sefwizard.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_sefwizard.sys.ini</language>
+		</languages>
+		
+	</administration>
+	
+</extension>

@@ -1,0 +1,422 @@
+
+#sort_count   { border:0px solid yellow !important ;width:100%; margin:0 !important}
+#comjshop div.form_sort_count                   {  width:100%;  margin-top:20px; border:0px solid green; height: auto;   }
+#comjshop div.form_sort_count *  { text-align:left;  }
+div.block_sorting_count_to_page            { display:block; width:100%;  height:30px !important;  line-height:30px !important ; border:0px solid green; margin:0; padding:0; float:none; clear:both; left:0 }
+#comjshop .form-horizontal .form_sort_count  div.control-label                                        { display:inline-block;  width:130px !important; border:0px solid yellow;   font-size:18px; height:30px;  line-height:30px !important ; margin:0 !important;   padding:0; float:none; clear:both; left:0; top:0 }
+#comjshop .form-horizontal .form_sort_count  div.controls, div.box_manufacrurer  div.controls         { display:inline-block;  width:47% !important; border:0px solid magenta;  font-size:18px; height:30px;  line-height:30px !important ;   margin:0 !important; padding:0 !important; float:none; clear:both; left:0 }
+#comjshop div.form_sort_count  div.controls span {font-size:16px; line-height:20px !important}
+div.block_sorting_count_to_page  div.control-label {position:relative; top:-8px}
+div.box_manufacrurer                                 { display:inline-block;    width:auto; text-align:left;;  border:0px solid green; }
+select#manufacturers, select#order  {  margin:0;  padding:0;  font-size:18px; font-weight:500; height:30px; width:120px !important; position:relative; left:0px; top:0px;  margin:0; padding:0; }
+div.box_cat_man  { width:100%;   border:0px solid magenta};
+#comjshop .form-horizontal .form_sort_count  div.control-label  {margin:0px  !important}
+#comjshop .form-horizontal .form_sort_count  div.controls       {margin-left:10px  !important}
+
+div.filter_price     { display:none}
+#jshop_module_cart  { display:none}
+
+div.moduletablelabels h3
+   { background-image:none; background-color:#fff;   vertical-align:middle;
+     margin:0px;  height:46px; line-height:46px;  padding:0px 0;   color:#052ba8;text-align:center; font-size:32px; }
+
+
+/*  portrait only */
+ @media screen  and (orientation:portrait)
+ {
+    td#productfull_left, td#productfull_right     {display:block; width:100%; background-color:#fff;  border:0px solid green; }
+
+        /*  buttons  */
+    #comjshop div.prod_buttons    input.btn-buy,  #comjshop div.button_back     input {  height:30px; line-height:30px;  }
+    #comjshop div.prod_buttons input.btn-buy {  width:70vw !important; height:40px; line-height:40px  }
+    #comjshop div.button_back  input          {  width:30vw !important;  font-size:16px; }
+    #comjshop div.prod_buttons    input.btn-buy, #comjshop .pfinish_comment_block   input.button  {  width:70vw !important; height:50px  }
+    #comjshop div.button_back     input          {  width:30vw !important;  font-size:16px; }
+    #table_shippings input.btn    { font-size:150px  !important;   width:70%; text-align:center; padding:5px 0; margin:10px auto;    }
+    #comjshop div.jshop_related  div.buttons table    {  width:150px !important; margin:auto;    }
+    .row-fluid .sblock2  , .row-fluid .sblock3, .row-fluid .sblock2 img.jshop_img, .row-fluid .sblock3 img.jshop_img {width: 100%; }
+
+
+ /*  cartform */
+ #cartformwrapper  {  position:fixed; top:30px;width:100%; margin:auto;  }
+ #cartform *  {  text-align:center; font-size:20px; line-height:24px; text-decoration:none  }
+ #cartform   { width:60%;  margin:auto; }
+ #cartform  table tr td  { width:100%;  display:block;  padding: 10px 0px }
+ #cartform  table tr td  div  {  }
+
+
+ /* label_products */
+div.label_products div.name   {height:auto}
+div.label_products div.description    {height:auto;  font-size:20px; line-height:25px; font-weight:400; }
+div.label_products div.block_item  { height:auto; margin-top:20px }
+div.jshop_list_product  div.sblock3 div.block_product  div.image div.image_block {height:auto;}
+div.jshop_list_product div.name {  min-height:20px;   }
+div.label_products div.image { height:auto;}
+div.jshop_code_prod,div.jshop_code_prod span {  font-size:20px;line-height:25PX; }
+
+
+ }
+
+
+
+
+
+
+ /*  all */
+
+div.moduletable_katalog *, div.moduletable_usermenu, #left div.moduletable *   {text-align:left}
+#left h3, #left div.moduletable h3  {text-align:center}
+div.jshop_menu_level_0 a, div.jshop_menu_level_0_a  a                     {text-decoration:none; line-height:20PX; font-size: 20px; }
+div.cart_empty_text   {  text-align:center; border:4px solid green ; padding:10px; width:50%; margin:20px auto }
+#jshop_menu_order tr td.prev, #jshop_menu_order tr td.next  {display:none}
+#jshop_menu_order  {background-color:#209e0c; color:#fff; margin-top:10px }
+#jshop_menu_order  table  {display:none}
+ #quantity  { line-height:20px; height:40px  !important;; }
+
+
+   /* filter comp portrait  */
+   #form_adv_search label {  position:relative; top:-0px !important;  }
+   #form_adv_search   input.input     {  width:100%; height:30px !important; ; line-height:30px !important; ; font-size: 24px !important;clear:both; margin:auto  }
+   #searchcateg, #searchmanuf   {  border:0px solid brown; width:90%; height:auto;  float:none;  clear:both; margin:auto   }
+    #form_adv_search  div.pricerange    {float:none; display:inline-block; border:0px dotted green; width:39%;  padding:10px }
+    #form_adv_search    #price_from, #form_adv_search   #price_to {  width:60%; margin:10px 0; font-size:18px; }
+    #comjshop  #form_adv_search select *, #comjshop  #form_adv_search select, #form_adv_search select option  { line-height:40PX; height:auto; font-size:18px !important;;}
+    #comjshop  #form_adv_search select  { width:90%; }
+     #form_adv_search div.controls input.input, #form_adv_search div.controls input.inputbox    {  width:90% !important;;  }
+     #form_adv_search select {font-size:18px;   height:50px !important ;  line-height:50px !important; width:90% !important; }
+      #form_adv_search input.button   {  width:50% !important; }
+       #form_adv_search #list_characteristics   { border:0px solid green; float:none; margin:auto;  margin-top:20px; clear:both; width:90% !important; }
+   #form_adv_search  div.filter_characteristic    div.control-group  { margin:10px auto !important; padding:0px;  text-align:center !important; min-height:10px; width:100% !important; vertical-align:top; display:block; border:0px solid green !important;  }
+   #form_adv_search  div.filter_characteristic    div.control-group * {  text-align:left  }
+   #form_adv_search  div.filter_characteristic    div.characteristic_name   { line-height:40PX; height:40PX; font-size: 26px;}
+   #form_adv_search  div.filter_characteristic    div.characteristic_val   { line-height:40PX; height:auto; font-size: 20px; border:0px solid green !important; }
+   #form_adv_search  div.filter_characteristic    div.characteristic_val  input     {  left:0px;  }
+
+
+
+
+
+
+/*  flex category 1 */
+/*       */ 
+#comjshop div.center h1  { margin:20px; text-align:left;  line-height:20PX; font-size: 20px; }
+#comjshop div#comjshop_list_product div.sblock3  *  {text-align:center; margin:auto }
+#comjshop div#comjshop_list_product   { display: block;  border:0px solid brown !important; width:100%;    height:auto;  }
+#comjshop div#comjshop_list_product div.sblock3          { border:0px solid green;  margin:10px auto; padding:0;   width:100% ;    height:auto;  float:none; clear:both;  }
+#comjshop div#comjshop_list_product  div.image                { border:0px dotted green; width:100% !important;;    height:auto;   margin-bottom:10px; }
+#comjshop div#comjshop_list_product  div.image div.image_block       { border:0px solid yellow; width:100% !important;;  }
+#comjshop div#comjshop_list_product  div.image  img.jshop_img { border:0px dotted green; width:90% !important;;   height:auto;  }
+
+
+
+/*  flex category 2 */
+/*
+#comjshop div.center h1  { margin:20px; text-align:left;  line-height:20PX; font-size: 20px; }
+#comjshop div#comjshop_list_product div.sblock3  *  {text-align:center; margin:auto }
+#comjshop div#comjshop_list_product   { display: flex;  border:0px solid brown !important; width:100%;   flex-direction: row; height: 100%;  align-items: center; flex-wrap: wrap;  justify-content:space-around;  justify-content:space-between;  align-content: space-around; }
+#comjshop div#comjshop_list_product div.sblock3          { border:0px solid green;  margin:0px;   margin-top:20px; padding:0;   width:49% ;    height:620px;  float:none; clear:both;  }
+#comjshop div#comjshop_list_product  div.image                { border:0px dotted green; width:100% !important;;    height:auto;   margin-bottom:10px;   }
+#comjshop div#comjshop_list_product  div.image div.image_block       { border:0px solid yellow; width:100% !important;;  }
+#comjshop div#comjshop_list_product  div.image  img.jshop_img { border:0px dotted brown; width:90% !important;;   height:auto;  }
+
+#comjshop  div.buttons  table                    { display:block !important;     border:0px solid green;  width:100% !important; margin:auto !important; padding:0 !important; }
+#comjshop  div.buttons  table tr td              { display:block !important;     border:0px dotted #38bdee !important; width:100% !important; margin:5px auto !important; padding:0 !important; }
+#comjshop  div.buttons  table tr td a.btn        {  display:block !important;    border:0px dotted green !important;   width:100% !important; margin:auto !important; padding:0 !important;  height:auto; }
+#comjshop  div.buttons  table tr td a.btn div    {  display:block !important;    border:0px dotted green !important;   width:100% !important; margin:auto !important; padding:0 !important;  }
+#comjshop  div.buttons  table tr     { display:block !important;     border:0px dotted #38bdee !important;             width:120px !important;  margin:auto !important; padding:0 !important; }
+    */
+
+
+
+
+
+ /*  kratko */
+ div.jshop_list_product div.name a { font-size:20px;  line-height:30PX; }
+div.jshop_list_category div.sblock3  *  {text-align:center; margin:auto }
+#comjshop_list_product div.sblock3  { text-align:center; margin:auto; padding:0;  }
+#comjshop_list_product  div.sblock3 div.block_product  {margin-bottom: 0px !important; float:none; clear:both;  }
+#comjshop_list_product div.sblock3 div.sblock2 div.category_name   { border:0px solid #e58105; margin:auto; width:100% ;  }
+div.jshop_list_product div.buttons table   { width:80% !important;  border-collapse:  separate !important; border-spacing:10px 10px !important }
+div.jshop_list_product div.buttons table tr td      { border:0px solid #5b9cfd !important;     width:50% !important }
+div.jshop_list_product div.buttons table tr td  a.btn div {display: block ; padding:0; margin:auto;  width:130px !important; font-size:17px; line-height:35px;height: 35px; font-weight:600; color:#fff }
+div.jshop_list_product div.count_block   { width:150px !important; }
+
+div.jshop_list_product div.buttons {padding-top:5px !important; margin-bottom:0px; padding: 0px 0 ;   clear:both}
+div.jshop_list_product div.buttons input {margin:0 5px}
+
+div.jshop_list_product button.p_m {  background-image:url('/images/arrow1.png');   }
+div.jshop_list_product button.p_p  { background-image:url('/images/arrow2.png');   }
+div.jshop_list_product div.buttons  { border:0px solid green;  }
+div.jshop_list_product div.buttons *  {text-align:center; margin:auto }
+div.jshop_list_product div.buttons input { display:inline !important }
+
+
+
+  /*  podrobno */
+div.productfull  * { text-align:center }
+div.productfull  {border:0px solid yellow; margin:auto;  width:100% }
+div.productfull div.product_label   {display:none}
+div.productfull div.jshop_code_prod   { display:block; font-size:18px; line-height:23px; text-align:center; }
+div.productfull  table#productfull_table        {display:block; width:100%;    }
+div.productfull  table#productfull_table  div.image_middle img      {display:block; width:100%; text-align:center; margin:auto }
+div.productfull  #list_product_image_thumb img    {width:47%; text-align:center; margin:5px auto }
+div.productfull  #list_product_image_thumb *    { text-align:center;  margin:0px auto }
+div.productfull  #list_product_image_thumb   {   margin:0px auto }
+div.productfull div.jshop_img_description    {   margin:0px auto }
+div.productfull div.product_label img {display:none}
+
+div.productfull div.image_middle       {text-align:center; padding:0;margin:auto; border:1px solid green; }
+div.productfull  .jshop                          { width:auto ;  text-align:center; padding:0; margin:auto; border:0px solid green; }
+div.productfull .jshop .span4                   { width:auto ;   text-align:center;padding:0; margin:auto; border:0px solid yellow; }
+div.jshop_prod_attributes select {font-size:17px; width:70vw;  border:2px solid green;   }
+div.productfull  .prod_attr_img     {display:none}
+div.productfull  div.jshop_prod_description  { width:auto; text-align:left }
+div.productfull .buttons  { text-align:center; width:auto;      }
+div.productfull .old_price  {font-size:20px; line-height:23px}
+div.productfull .prod_price {}
+#comjshop div.prod_buttons    *, #comjshop div.prod_buttons    {  text-align:center; }
+#comjshop div.prod_buttons   div.buttons {  border:0px solid yellow; text-align:center; width:auto }
+#comjshop div.prod_buttons   div.buttons input {   text-align:center;  margin:auto;  margin-top:0px }
+#productfull_table  {margin:auto; padding:0;  border:0px solid green;}
+#productfull_right, #productfull_left {margin:auto; padding:0}
+
+
+#productfull_table div.prod_buttons table tr td #quantity  {margin:0 !important; ; }
+
+div.prod_qty_input  {  width:100%; margin:0px auto 0px auto; border:0px solid brown !important; ;  }
+div.prod_qty_input table {  width:100%; margin:20px auto}
+div.prod_qty_input table td {margin:0; padding:0; border:0px solid brown !important; display:table-cell ; }
+div.prod_qty_input div.count_block { width:90px !important; border:0px solid yellow !important }
+div.prod_qty_input #quantity   {text-align:center; position:relative; top:0px;  }
+
+
+ /*  podrobno attributes extra_fields  */
+#comjshop div.jshop_prod_attributes  *   { text-align:left   }
+#comjshop div.extra_fields    *   { text-align:left   }
+#comjshop div.jshop_prod_description    *     { text-align:left   }
+ div.jshop_prod_attributes                {  width:100%;   padding:0 !important; margin:0 auto;   float:none; clear:both   }
+div.jshop_prod_attributes div.row-fluid  {  width:100%;   padding:0 !important;  margin:0 aoto; float:none; clear:both  }
+.attributes_title, .attributes_name {  font-size:22px; line-height:26px; text-align:left   }
+#comjshop span.input_type_radio  *    {  margin:0; padding:0; }
+#comjshop span.input_type_radio     {  width:100%;  margin:5px 2px; padding:20px 0}
+#comjshop span.radio_attr_label   {  border:0px solid brown; }
+#comjshop span.radio_attr_label img {}
+#comjshop .input_type_radio label { }
+#comjshop .input_type_radio input { position:relative; top:0px;  margin-left:10px; margin-right:10px;  }
+#comjshop .input_type_radio  *    {  margin:0; padding:0; }
+#comjshop .input_type_radio input { position:relative; top:-0px;  left:20px;  }
+div.jshop_prod_attributes select {font-size:17px; width:80vw; border:1px solid green; }
+div.manufacturer_name     { text-align:left; margin-left:29px;   }
+div.extra_fields *, div.manufacturer_name  { font-size:20px; line-height:30px  }
+div.extra_fields                  {text-align:center; width:100%;  padding:0px ; margin:auto; }
+div.extra_fields div.block_efg    {text-align:center; width:100%;  padding:0px ; margin:auto}
+div.old_price, div.prod_price, div.prod_buttons    {text-align:center; width:100%;  padding:0px ; margin:auto; }
+div.old_price {margin-top:10px}
+div.prod_buttons div      {text-align:center; width:auto; padding:0px ; margin:auto;}
+div.prod_buttons div.prod_qty, div.prod_buttons div.prod_qty_input  {  width:150px ;  display:inline; }
+
+div.label_products div.block_item     {display:block; width:100%; border:0px solid green; padding:0px }
+div.label_products div.block_item   { display:block;  float:none;    }
+
+
+div.jshop_register {  width:90vw; margin:auto }
+#comjshop form.form-horizontal   div.jshop_register div.control-group   div.control-label   {display:block; width:100% !important;  border:0px solid #757576; height:auto }
+#comjshop   form.form-horizontal div.jshop_register div.control-group   div.controls        {display:block;   border:0px solid #757576; height:auto }
+#comjshop .form-horizontal   input.button  { width:50%; margin:auto;  text-align:center;  }
+#comjshop .form-horizontal  *  { margin:auto;  text-align:center;  }
+div.text_zoom    {display:none}
+
+
+/* cart page */
+#jshop_menu_order  td #active_step  { font-size:26px ; line-height:34px;  text-align:left !important; width:auto}
+#comjshop  table.cart  {  border:0 !important  }
+#comjshop form, #comjshop  table.cart tr {  border:0px dotted green !important  }
+#comjshop  table.cart *  {   font-weight:400  !important; color: #1e1e1e; text-align:left; font-size:19px !important; line-height:20px !important }
+#comjshop  table.cart tr td div.data a    {   font-size:22px !important; line-height:24px !important }
+#comjshop  table.cart tr td { background-color:transparent; }
+#comjshop  table.cart tr .product_name,  #comjshop  table.cart tr .product_name *  { text-align:left }
+#comjshop  table.cart tr th   {  border:0 }
+#comjshop  table.cart tr td div.data  span.jshop_code_prod,
+#comjshop  table.cart tr td div.data div.manufacturer   {padding:0; font-style:normal; display:inline-block; font-weight:400; margin:0; }
+#comjshop  table.cart .quantity .inputbox{   height:30px; width:30% }
+#comjshop  table.cart tr td div.data  span.jshop_code_prod {margin:10px 0}
+#comjshop  table.cart tr th.remove     {width:100%  !important}
+#comjshop  table.cart tr th.shop_img_description_center  {width:50%  !important}
+#comjshop  table.cart tr th.single_price {width:100%  !important}
+#comjshop  table.cart tr th.qtyshtuk  {width:100%  !important}
+#comjshop  table.cart tr td.quantity, #comjshop  table.cart tr td.quantity div.data {width:100%  !important}
+#comjshop  table.cart tr td img.jshop_img  {width:50%  !important}
+#comjshop  table.cart div.mobile-cart, #comjshop  table.cart div.manufacturer
+{  border:0px solid magenta; vertical-align:middle;   line-height:15px !important;  padding:10px 0}
+#comjshop  table.cart div.manufacturer   { border:0px solid magenta; height:35px !important; min-height:35px !important;  line-height:35px !important;  padding:10px 0}
+span.basic_price_number,td.total_price div.data, td.single_price   div.data
+{ display:inline-block;   height:20px !important; line-height:20px !important; padding:0px !important; margin-top:5px }
+#comjshop  table.cart tr td {padding:0 !important}
+span.cart_reload {   position:relative; top:5px }
+#comjshop  table.cart td.remove { border-bottom:4px solid brown  }
+#comjshop  table.cart tr td  div.mobile-cart, #comjshop  table.cart tr td  div.data  { border:0px solid magenta !important;   height:30px;    line-height:30px !important; padding:0px !important; margin:0 }
+td.jshop_img_description_center div, td.product_name div {height:auto !important}
+
+#comjshop  table.jshop_subtotal tr.total td    { font-size:23px !important;}
+
+div.cart_buttons, div.jshop_subtotal, #checkout, .td_1, .td_2    {  padding:0; margin:0; border:0;    }
+
+
+div.alert {font-size:20px; background-color:#f5d315;  padding:10px; margin-top:10px}
+div.checkoutinfo    * {margin:auto;  text-align:center; }
+div.pfinish_comment_block div.name,  div.pfinish_comment_block div.field   {display:none}
+#katalog tr td  { display:block; }
+#comjshop form         {margin:auto; padding:0}
+div.jshop, #comjshop   { margin:auto; padding:0}
+
+
+
+#comjshop tr td div  { border:0px solid green; width:90%;  }
+#comjshop tr td.total_price div  {display:inline; }
+#checkout a div.td_1 { width:70%; text-align:center; padding:5px 0; margin:10px auto;}
+#checkout a div.td_2 { width:70%; text-align:center; padding:0px 0; margin:10px auto;   border-radius:5px; float:none; color:#ffffff; text-decoration:none;  font-weight:400; font-size:20px }
+#checkout a { text-decoration:none  }
+.pfinish_comment_block {   max-width:100%;    border:0px solid green ; }
+#table_shippings    *   { font-size:20px; line-height:20px;text-align:left }
+#shipping_form *              {margin:auto; padding:0;  text-align:center;  }
+#shipping_form input.btn, div.pfinish_comment_block input.button {margin:auto; padding:0;  text-align:center; background-image: none !important;   background-color: #cd0000 !important;   border-radius:5px ; width:100% !important; font-weight:800; font-size:25px;  }
+
+
+
+
+  /*  related   */
+   div.related_header     {  border-radius: 4px;  border:2px solid #3f69e1;   margin:30px auto 0 auto ; color:#000; float:none;width:80%;
+    padding:10px 0 10px 0; margin-bottom:10px;  font-size:23px  }
+   div.list_related  div.sblock3   {  width:100%   }
+   div.list_related  div.image_block  img.jshop_img  {    width:95% ; height:90% ;  }
+   #comjshop div.list_related div.buttons a p {border:0px solid #1fdc1f; width:90%;}
+
+
+
+
+
+
+   /*  buttons */
+     #comjshop div.prod_buttons    input.btn-buy,  #comjshop div.button_back     input
+         { font-size:20px; height:30px; line-height:30px; padding:0; background-color:#21a417;
+          border-radius:15px; }
+    #comjshop div.prod_buttons input.btn-buy {   height:40px; line-height:40px  }
+    #comjshop div.button_back  input          {    font-size:16px; }
+     #comjshop div.prod_buttons    input.btn-buy  {  height:50px  }
+     #comjshop div.button_back     input          {    font-size:16px; }
+     #comjshop div.address_block input.button {  background-color:#21a417;  border-radius:15px; }
+
+#center div.login_block input.button, #center div.register_block input.button {width:70%;  }
+form.form-horizontal input.inputbox {  border:2px solid brown !important; padding:5px 0; width:70%;  }
+form.form-horizontal div.controls   {  margin-top:5px !important }
+
+  /* landscape only */
+
+ @media screen  and (orientation:landscape)
+
+{
+
+
+   /* kratko */
+
+/*  flex category 2 */
+#comjshop div.center h1  { margin:20px; text-align:left;  line-height:20PX; font-size: 20px; }
+#comjshop div#comjshop_list_product div.sblock3  *  {text-align:center; margin:auto }
+#comjshop div#comjshop_list_product   { display: flex;  border:0px solid brown !important; width:100%;   flex-direction: row; height: 100%;  align-items: center; flex-wrap: wrap;  justify-content:space-around;  justify-content:space-between;  align-content: space-around; }
+#comjshop div#comjshop_list_product div.sblock3          { border:0px solid green;  margin:0px;   margin-top:20px; padding:0;   width:49% ;    height:620px;  float:none; clear:both;  }
+#comjshop div#comjshop_list_product  div.image                { border:0px dotted green; width:100% !important;;    height:auto;   margin-bottom:10px;   }
+#comjshop div#comjshop_list_product  div.image div.image_block       { border:0px solid yellow; width:100% !important;;  }
+#comjshop div#comjshop_list_product  div.image  img.jshop_img { border:0px dotted brown; width:90% !important;;   height:auto;  }
+#comjshop  div.buttons     { width:100% !important; margin:auto !important;  border:0px solid brown !important; text-align:center; }
+
+#comjshop  div.buttons  table                    { display:block !important;     border:0px solid green;  width:120px !important; margin:auto !important; padding:0 !important; }
+#comjshop  div.buttons  table tr td              { display:block !important;     border:0px dotted #38bdee !important; width:100% !important; margin:5px auto !important; padding:0 !important; }
+#comjshop  div.buttons  table tr td a.btn        {  display:block !important;    border:0px dotted green !important;   width:100% !important; margin:auto !important; padding:0 !important;  height:auto; }
+#comjshop  div.buttons  table tr td a.btn div    {  display:block !important;    border:0px dotted green !important;   width:100% !important; margin:auto !important; padding:0 !important;  }
+#comjshop  div.buttons  table tr     { display:block !important;     border:0px dotted #38bdee !important;             width:120px !important;  margin:auto !important; padding:0 !important; }
+
+div.jshop_list_product  div.sblock3 div.block_product  div.image div.image_block { width:100% !important   }
+div.jshop_list_product div.sblock3 div.block_product  div.image div.image_block    img.jshop_img {   width:100% !important     }
+div.jshop_list_product div.buttons table  { border-collapse:  separate; border-spacing:0px 0 !important; width:100% !important; margin-top:10px  }
+div.jshop_list_product div.buttons table tr td    { width:100% !important; display:block; padding:5px 0 !important}
+
+
+div.jshop_list_product div.buttons table tr td  a.btn div
+{display: block ; padding:0; margin:auto;  width:100% !important; font-size:17px; line-height:35px;height: 35px; font-weight:600; color:#fff }
+
+
+
+                /* label_products */
+                div.label_products { margin-bottom:50px !important }
+        div.label_products div.block_item     { width:27vw !important; display:inline;  padding:0px; margin:0 5px; border:0px solid green; }
+        div.label_products .name    { padding:0px; margin:auto; border:0px solid green; width:100% !important; }
+         div.label_products .name a { font-size:16px; line-height:20px;  font-weight:600; padding:0px; margin:auto;  width:100%   }
+        div.label_products   img.jshop_img    { width:80%;  }
+        div.label_products   { width:100%; border:0px solid green; padding:0px; margin:auto }
+        div.label_products  div.image    {  border:0px solid green;  height:auto; padding:0px; margin:auto }
+        div.label_products div.buttons    { border:0px solid green;  }
+        div.label_products div.buttons a { padding:0px 0px;  width:80%;  margin:2px auto; left:0  }
+        div.label_products div.buttons a.button_buy    {display-:none}
+        div.jshop_code_prod,div.jshop_code_prod span {  font-size:16px;line-height:20PX; }
+
+        /* productfull */
+         #productfull_table tr td     { border:0px solid green; }
+        #list_product_image_middle img {display:block; width:90% !important; text-align:center; margin:auto }
+        #productfull_left   {width:50% !important;; }
+        #productfull_right   {width:50% !important;; }
+
+        #comjshop .input_type_radio     {float:left; border:1px dotted green; width:46%;  margin:5px 2px; padding:0}
+        div.jshop_prod_attributes select {font-size:17px; width:100%;  border:2px solid green;   }
+
+         /*  buttons    */
+    #comjshop div.prod_buttons    input.btn-buy,  #comjshop div.button_back     input {  height:30px; line-height:30px;  }
+    #comjshop div.prod_buttons input.btn-buy {  width:50% !important; height:40px; line-height:40px  }
+    #comjshop div.button_back  input          {  width:50% !important;  font-size:16px; }
+    #comjshop div.prod_buttons    input.btn-buy  {  width:30vw !important; height:40px  }
+    #comjshop div.button_back     input          {   width:50% !important;  font-size:16px; }
+
+
+        /* category */
+#comjshop div.jshop_list_category .row-fluid    {border:0px solid brown; width:100%; }
+#comjshop div.jshop_list_category  div.sblock3   {border:0px solid #4c91d6; width:30% !important }
+#comjshop div.jshop_list_category  div.sblock3     div.sblock2   { border:0px solid yellow;  width:100%; text-align:center;  }
+#comjshop div.jshop_list_category  div.sblock2 div.sblock2   img {border:0px solid #4c91d6 }
+div.sblock2  * {text-align:center; margin: 0 auto }
+div.sblock2   {text-align:center; margin: 0 auto; width:100% }
+.row-fluid .sblock2{width: 100%; }
+
+        div.jshop_categ   {display:inline; width:24vw !important; }
+        div.jshop_categ img.jshop_img  { width:70%  }
+        #comjshop_list_product .sblock3 {display:inline; width:31% !important;  margin:0 4px }
+        #comjshop_list_product .sblock3 img  { width:90%}
+        #comjshop div.buttons span {margin:20px 0 !important; display:block }
+
+     #comjshop div.buttons a p { width:46%;   }
+
+
+
+  /*     */
+#cartformwrapper  {  position:fixed; top:30px;width:100%; margin:auto;  }
+#cartform  {width:50%;  }
+#cartform *  {  text-align:center; font-size:20px; line-height:24px; text-decoration:none  }
+#cartform  table tr td  { width:50% !important;;   padding: 10px 0px;  }
+
+
+
+ #productfull_table div.prod_qty_input input.product_minus,
+#productfull_table div.prod_qty_input input.product_plus  { margin:0 0px;   }
+
+
+  /*  related   */
+
+   div.list_related  div.sblock3   {  width:33%   }
+   div.list_related  div.image_block  img.jshop_img  {    width:95% ; height:90% ;  }
+   #comjshop div.list_related div.buttons a  { display:block; border:2px solid #fff !important; }
+   #comjshop div.list_related div.buttons a p {border:0px solid #1fdc1f; width:90%;}
+
+
+
+           #mxcpr, #mxcpr a    { font-size:6px !important;}
+
+
+}

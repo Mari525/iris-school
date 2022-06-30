@@ -1,0 +1,30 @@
+   #sqformwrapper  {  position:fixed; top: 70px; width:100%; margin:auto; border:2px solid #fff !important ;  }
+
+ div#sqform1  { width:90% !important; margin:auto;  top:50px;  border-radius:15px;   padding:10px 10px; border:1px solid #fff;  background-color:#0c1c80;  }
+
+
+
+
+    @media screen  and (orientation:portrait)
+    {
+
+
+
+    div#sqform1 label {  font-size:19px !important; line-height:22px;}
+    div#sqform1   input,  div#sqform1 textarea { width: 90%;  margin:1px auto ; padding:1px 0px;;  font-size:20px; line-height:26px; border:1px solid #fff !important;   }
+    div.sqform   p {  font-size:14px !important;; line-height:20px; color:#fff;  width: 100%;  }
+
+
+    }
+
+
+
+
+      @media screen  and (orientation:landscape)
+    {
+        #sqformwrapper  {  position:absolute; top:10px;width:100%; margin:auto;  }
+
+    }
+
+
+

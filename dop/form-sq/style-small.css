@@ -1,0 +1,48 @@
+#sqformwrapper  {  position:fixed; top: 0px; width:100%; margin:auto; border:0px solid #fff !important ;  }
+
+div.sqform  { width:80% !important; margin:auto;  top:50px;  border-radius:15px;   padding:10px 10px; border:1px solid #fff;    }
+div.sqform *  {  text-align:center  !important; font-size:20px; line-height:24px; text-decoration:none  }
+div.sqform div.sq_top span.sq_title  { border:0px solid #fff; margin-left:0px;font-size:25px !important; line-height:26px; height:26px; }
+div.sqform div.sq_top                { border:0px solid yellow; background-color: transparent; margin:0 auto 0px auto; padding:0;  line-height:35px; height:35px;   }
+div.sqform table   { text-align:center;  margin:auto;   margin-top:10px;   width:90%}
+div.sqform table tr td { text-align:center; display:block;  padding:2px 0px ; clear:both; float:none;  }
+div.sqform div#otm  {width:35px; height:35px;    font-size:35px; line-height:35px; cursor:pointer;border:0px solid yellow; float:right;  }
+
+div.sqform  table tr td.tdlabel  { width:100%; border:0px solid #fff;    }
+div.sqform  table tr td.tdinput  { width:100%; border:0px solid #fff;    }
+div.sqform input,  div.sqform textarea  {width: 100%; }
+div.sqform form  { margin-top:0px; margin-bottom:10px    }
+
+    @media screen  and (orientation:portrait)
+    {
+
+#sqformwrapper  {  position:fixed; top: 20px;width:100%; margin:auto; border:0px solid #fff ;  }
+
+    div.sqform #otm  { cursor:pointer; margin:0px;  font-size:15px; position:relative; top:0px; left:00px; text-decoration:underline   }
+    div.sqform   input,  div.sqform textarea { width: 90%;  margin:1px auto ; padding:1px 0px;;  font-size:24px; line-height:30px; border:1px solid #fff !important;   }
+    div.sqform form  p {  font-size:12px !important;; line-height:15px; color:#fff;  width: 100%;  }
+    div.sqform input.submit1 { cursor: pointer;  border: none; width: 70% !important ; overflow: visible; font-size: 19px !important; line-height:20px; height:40px; color: #FFF;padding: 0px 0px ; border-radius: 10px; font-weight: bold;margin: auto; margin-top:10px !important }
+
+input:-ms-input-placeholder      { font-size:20px; line-height:46px; color: #8a8e8a; font-weight:300px }
+input::-ms-input-placeholder     { font-size:20px; line-height:46px; color: #8a8e8a; font-weight:300px }
+input::placeholder               { font-size:20px; line-height:46px; color: #8a8e8a; font-weight:300px }
+input::-webkit-input-placeholder { font-size:20px; line-height:46px; color: #8a8e8a; font-weight:300px }
+
+
+
+
+    }
+
+
+
+
+      @media screen  and (orientation:landscape)
+    {
+        #sqformwrapper  {  position:absolute; top:10px;width:100%; margin:auto;  }
+          div.sqform form  p {  font-size:40% !important;; line-height:12px; color:#fff;  width: 100%;  }
+          div.sqform div.sq_top span.sq_title  { border:0px solid #fff; margin-left:0px;font-size:25px !important; line-height:26px; height:26px; }
+
+    }
+
+
+

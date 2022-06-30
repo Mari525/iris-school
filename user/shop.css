@@ -1,0 +1,384 @@
+  /* general */
+.jshop {  font-size:17px;  line-height:22px;  }
+#center h3.module-header   {    font-size:30px;    color:#144079; margin:10px 0; padding:0px 0;    text-align:center;    font-variant:normal; font-weight:400 ;  }
+input.button {cursor:hand; cursor:pointer; }
+td.buttons input.button {cursor:hand; cursor:pointer; height:30px; font-size:15px }
+
+div.jshop h1 {padding:5px; font-size:32px; font-weight:400; margin-bottom:20px;  margin-top:10px; line-height:35px }
+
+div.shop_list_category div.sblock2  a {text-align:center}
+
+div.image  {text-align:center}
+td.prod_qty_input   input {height:28px}
+#system-message  a.close {display:none}
+
+
+
+
+/* category */
+div.jshop_list_category  div.sblock3   {border:0px solid #4c91d6 }
+div.jshop_list_category  div.sblock3     div.sblock2   { border:0px solid yellow;  width:100%; margin: 0 auto; text-align:center;  }
+div.jshop_list_category   div.sblock2   img.jshop_img  {border:0px solid #4c91d6 }
+div.sblock2  * {text-align:center; margin: 0 auto }
+.row-fluid .sblock2 {width: 100%; }
+div.jshop_list_category div.category_name  {width: 80%; }
+div.jshop_list_category div.category_name a.product_link  {   LINE-HEIGHT:30PX; font-size: 24px; }
+
+
+  #comjshop_list_product div.description {text-align:center;}
+
+
+
+/* joomshopping -categories level 0   */
+div.moduletable_katalog      { font-family: "PT Sans Narrow", Helvetica, Arial, sans-serif; }
+div.jshop_menu_level_0 a, div.jshop_menu_level_0_a  a {margin-left:0px;  text-decoration:none; LINE-HEIGHT:20PX; font-size: 18px; }
+div.jshop_menu_level_0_a a:hover,   div.jshop_menu_level_0:hover          { text-decoration:underline; font-weight:400; color:green  }
+div.jshop_menu_level_0_a,   div.jshop_menu_level_0          { border:0px solid brown; margin:10px 0  }
+
+/* joomshopping -categories level 1  */
+div.jshop_menu_level_1, div.jshop_menu_level_1_a
+     {background-image:url('/images/ul.png'); background-repeat:no-repeat; background-position:5px 5px; margin-left:15px; pagging:0px;}
+div.jshop_menu_level_1 a, div.jshop_menu_level_1_a  a { position:relative; left:10px; margin-left:0px; text-decoration:none;
+font-size:18px;line-height:20px;font-weight:400; }
+div.jshop_menu_level_1_a a  { text-decoration:underline; font-weight:400; }
+div.jshop_menu_level_1_a { font-weight:800;}
+
+
+/* joomshopping -categories level 2  */
+div.jshop_menu_level_2, div.jshop_menu_level_2_a {background-image:url('/images/4.png'); background-repeat:no-repeat; background-position:5px 5px;
+margin-left:40px; pagging:0px;}
+div.jshop_menu_level_2 a, div.jshop_menu_level_2_a  a {position:relative; left:0px; margin-left:0px; text-decoration:none; font-size:12px;line-height:20px;font-weight:400; }
+div.jshop_menu_level_2_a a  { text-decoration:underline; font-weight:400; }
+div.jshop_menu_level_2_a { font-weight:800;}
+
+
+
+
+ /*  flex category */
+#comjshop div#comjshop_list_product   *  {text-align:center;  float:none; clear:both; }
+#comjshop div#comjshop_list_product   { margin-top:0px;  display: flex;  border:0px solid brown !important; width:100%;   flex-direction: row; height: 100%;  align-items: center; flex-wrap: wrap;
+   justify-content:space-between;    align-content: flex-start }
+#comjshop div.list_category  {  width:100% ; margin:auto; padding:0;   }
+#comjshop div#comjshop_list_product div.sblock3                   { border:0px solid green;  margin:0px; padding:0;   width:32% ;   ;  float:none; clear:both; margin-bottom:10px; }
+
+
+
+/* joomshopping - kratko  */
+div.jshop_list_product  div.sblock3 { border:0px dotted #5b9cfd }
+div.jshop_list_product  div.sblock3 div.block_product {  border:1px solid #5b9cfd; padding:15px 0;  margin:15px auto; width:90%  }
+div.jshop_list_product  div.sblock3 div.block_product  div.image    {  border:0px solid yellow; }
+div.jshop_list_product  div.sblock3 div.block_product  div.image div.image_block { border:0px solid brown; border-radius:5px; width:240px; height:240px; text-align:center;  background-color:#fff;
+  display:flex; justify-content: space-around; align-items: center;  padding:0; position:relative;   }
+
+#comjshop_list_product .product_label {    position: absolute;left: 0px;top: 0px;    }
+div.jshop_list_product  div.sblock3 div.block_product  div.image div.image_block    img.jshop_img { border:0px solid brown; padding:0; margin:0; max-width:240px;  max-height:230px;  text-align:center;     }
+div.jshop_list_product  div.sblock3 * { text-align:center; margin:auto }
+div.jshop_list_product div.name { font-size:18px; min-height:70px;  border:0px solid brown }
+div.jshop_list_product div.name   a  {  color:#000000  }
+div.jshop_list_product div.name, div.list_product div.name * { text-align:center }
+div.jshop_list_product .jshop_code_prod { font-size:15px;   }
+div.jshop_list_product button.p_m,div.jshop_list_product button.p_p  { float:none; padding:0; border:0px solid #5b9cfd; margin:auto; display: block ; cursor:pointer;  background-color:transparent; background-position:50% 50%;  background-repeat:no-repeat; width:30px; height:30px  }
+div.jshop_list_product button.p_m {  background-image:url('/images/arrow1_.png');   }
+div.jshop_list_product button.p_p  { background-image:url('/images/arrow2_.png');   }
+div.jshop_list_product div.buttons input.quantity  { border:1px solid #5b9cfd; width:65px; min-width:50px; font-size:20px; line-height:24px; height:30px; color:#000; margin:auto; text-align:center;  position:relative; top:0px;   background-color:#fff; text-align:center; padding:0;    }
+div.jshop_list_product div.count_block {  margin:10px auto; padding:0; border:0px solid brown ; width:127px; display: flex; flex-direction: row; height: 100%; flex-wrap: wrap; justify-content: center; align-content: center; align-items: center; }
+div.jshop_list_product div.buttons         {  width:100%; margin:auto; padding:0; border:0px solid brown ; }
+div.jshop_list_product div.buttons table  {  width:100%; margin:auto;  }
+div.jshop_list_product div.buttons table tr td  { border:0px solid brown ; padding:0; text-align:center }
+div.jshop_list_product div.buttons table tr td  a.btn div {display: block ; padding:0; margin:auto;  width:90px; font-size:14px; line-height:30px;height: 30px; color:#fff }
+div.jshop_list_product div.extra_fields  * { text-align:center !important; }
+
+div.related_header   { font-size:30px; line-height:34px;  }
+div.jshop_list_product .product .jshop_price, .jshop_list_product .jshop .old_price    { font-size:20px;  font-weight:600; width:46%; display:inline}
+div.jshop_list_product .jshop .old_price        { color:#c05151 ; text-decoration:  line-through   }
+div.jshop_list_product .product .jshop_price    { color:#3f7907 }
+div.productfull div.jshop_related div.jshop_code_prod, div.productfull div.jshop_related div.jshop_code_prod * { margin:auto; text-align:center   }
+
+
+
+
+/* joomshopping - podr  */
+div.productfull   { width:100% }
+div.productfull, div.manufacturer_name,div.manufacturer_name *   { width:100%; font-size:17px; line-height:25px }
+#productfull_table { width:100%;   border:0px solid green;}
+#productfull_left  { width:50%;   border:0px solid green;}
+#productfull_right { width:50%;   border:0px solid green;}
+#productfull_table   .jshop_code_prod, .jshop_code_prod  {color:#7f7c7e;  font-size:18px }
+#list_product_image_middle a.lightbox img  { width:400px  }
+#list_product_image_thumb  img.jshop_img_thumb  {width:62px; }
+#productfull_table img.jshop_img_thumb   {max-width:840px; }
+#productfull_table  div.product-buttons  { padding-left:0px;}
+#productfull_table   input.btn-buy {   width:265px;      border:0px solid brown;  margin:auto; text-align:center; font-weight:700;color:#fff; font-size:17px; line-height:40px; vertical-align:middle; cursor:pointer  }
+div.productfull div.jshop_code_prod  {margin:0; text-align:left }
+#productfull div.description   { text-align:center; margin:auto; }
+#productfull_table span.old_price, .productfull .old_price                  { font-weight:400; font-size:26px; line-height:35px; color: #fb0404; }
+.prod_price,   #block_price, .productfull #block_price                      { font-weight:800; font-size:26px; line-height:35px;  color:#446411; }
+div.jshop_prod_description ul {  margin-left:50px   }
+div.jshop_prod_description ul, div.jshop_prod_description ol {  margin-left:50px   }
+div.jshop_prod_description {clear:both}
+div.jshop_prod_description  table, div.jshop_prod_description  table tr td, div.jshop_prod_description  table tr th, div.jshop_prod_description  table tr {border-width:1px; border-color:#d3d6d3; border-style:solid;}
+input.product_minus,  input.product_plus  {disdlay:none; border:none}
+div.productfull  #quantity {height:27px;  font-size:22px; position:relative; top:3px; }
+
+
+
+div.prod_qty_input  {  width:100%; margin:30px auto 10px auto; border:0px solid brown ;  }
+div.prod_qty_input button.p_m, div.prod_qty_input button.p_p  { float:none; padding:0; border:0px solid #5b9cfd; margin:auto; display: inline-block; cursor:pointer;  background-color:transparent; background-position:50% 50%;  background-repeat:no-repeat; width:30px; height:30px  }
+div.prod_qty_input button.p_m {  background-image:url('/images/arrow1.png');   }
+div.prod_qty_input button.p_p  { background-image:url('/images/arrow2.png');   }
+div.prod_qty_input div.count_block {  margin:0px auto; padding:0; border:0px solid brown ; width:67px; display: flex; flex-direction: row; height: 100%; flex-wrap: wrap; justify-content: center; align-content: center; align-items: center; }
+div.prod_qty_input #quantity   {text-align:center; position:relative; top:2px; width:84px; font-weight:700;  font-size:25px; line-height:28px; height:28px; border:1px solid blue; margin:0 5px }
+div.prod_qty_input table td {margin:0; padding:0}
+
+
+
+a.dostopl {  text-decoration:none; display:table-cell;  text-align: center;  padding:2px 0px; margin:0px ; }
+a.dostopl div { text-align:center;border-radius: 4px;color:#ffffff; background-color:#16922b; width:148px; text-decoration:none;  padding:5px 7px; margin:15px ;  font-family:  "PT Sans Narrow", Arial, Helvetica, sans-serif;  font-weight:400px; font-size:16px }
+a.dostopl div:hover  { background-color:#012c06; }
+div.highslide-body   {padding:0 20px}
+a.dostopl  {display:inline-block}
+
+
+
+/* attributes    */
+div.attributes_title, .attributes_name {  font-size:26px; line-height:30px;}
+#productfull_table span.input_type_radio       {  border:4px solid #0e85d6; width:90%;   margin:10px 0; padding:5px;display: flex;flex-wrap: wrap; flex-direction: row; justify-content: start; align-items: center; align-content: start  }
+#productfull_table span.input_type_radio   input { cursor:pointer; color: yellow; border:0px dotted green; font-size:30px; display: inline;  width: 50px;  margin:0 5px   }
+#productfull_table span.input_type_radio label              { cursor:pointer;  border:0px dotted green; width:70%; display:inline-block }
+#productfull_table span.radio_attr_label  { line-height:20px; border:0px dotted green; display:inline-block }
+#productfull_table span.radio_attr_label img {  width:40px; height:40px }
+div.jshop_prod_attributes select {font-size:17px;  line-height:40px; height:40px;  width:300px; margin-top:5px }
+div.filters  input {margin:0px 0 0px  0; height:16px; font-size:15px; }
+div.filters input.button  {height:18px; font-size:14px; padding:0}
+#comjshop .address_block  input  { border:1px solid #1f70d4  }
+
+
+/* cart module */
+#jshop_module_cart  { position:relative; left:0px; top:0px;  border:0px solid #5c82e4}
+#jshop_module_cart table   { border:0px solid yellow; height:auto}
+#jshop_module_cart  img {width:65px}
+#jshop_module_cart * {text-align:left; line-height:20px;  font-size:15px;}
+#jshop_module_cart a  {margin:0; padding:0; text-decoration:underline; font-weight:400; }
+
+
+   /* labels module */
+div.moduletablelabels h2 { background-image:url('/images/buttonfon.jpg');  background-position:50%  50% ; background-repeat:no-repeat;    background-color:#fff; }
+div.moduletablelabels {float:none; clear:both; width:100%;}
+div.label_products   { text-align:center; border:0px solid brown ; width:100%; display: flex;  flex-direction: row;  height: 100%; align-items: start; flex-wrap: wrap;  justify-content:space-around; justify-content:space-between; align-content: start; }
+div.label_products  * {text-align:center}
+div.label_products div.block_item  {border:0px solid #d0d2d8; margin:20px 20px; padding:5px 1px; text-align: center; height:450px; width:28% }
+div.label_products div.name   {margin:5px auto; width:192px;   font-size:19px;  text-align: center;}
+div.label_products div.image       {height:210px; width:210px; border:0px solid brown; margin:auto }
+div.label_products  img.jshop_img  { max-width:210px; max-height:210px; border:3px solid #b9b9de;}
+div.label_products  img.jshop_img:hover  {border-color:#81d38d;}
+div.label_products div.old_price , div.label_products div.jshop_price    { color:#575956; font-weight:800;  font-size:19px;  }
+div.label_products div.old_price  { text-decoration:line-through; }
+div.label_products div.old_price    {color:red}
+div.label_products div.jshop_price     {color:green}
+div.label_products div.image { transition: 0.4s ease-out;  text-align:center}
+div.label_products div.image:hover {-webkit-transform: scale(1.10); transform: scale(1.10);}
+div.moduletablelabels  div.buttons   a    { display:inline-block; width:70px;  font-size:14px; line-height:35px;height:35px; padding:0px 10px; color:#fff; text-decoration:none }
+div.product_label  img {border-width:0}
+div.jshop_code_prod,div.jshop_code_prod span {  font-size:14px;}
+div.label_products div.extra_fields div  { font-size:14px; line-height:20px; }
+div.label_products div.description,  div.label_products div.manufacturer_name, div.label_products div.manufacturer_name span { font-size:15px; line-height:20px; }
+
+/* login page    */
+#member-registration  input  {  height:30px; line-height:30px;   }
+input.inputbox  {margin:0}
+#member-registration fieldset, #user-registration fieldset, div.login fieldset, div.reset fieldset {padding:15px; margin-bottom:10px;  border:2px solid #72a0f4       }
+div.jshop_register input,div.login  input, .registration div.controls input,  div.pagelogin input,   div.block_button_register input,  div.reset input,  div.reset button, #user-registration input {margin:0px 0 20px  0; height:40px; line-height:40px; font-size:22px; text-align: center; border:2px solid #1151bc  }
+ul.nav-stacked  {margin-left:30px;  margin-top:20px;  margin-bottom:50px; }
+#jform_email-lbl  { line-height:50px }
+div.control-group  div.controls input,  {width:250px;  border:1px  solid #1151bc }
+.rowremember input,  .rowremember label  { width:auto; border:0px  solid green; display:inline }
+.rowremember   div.controls    {width:300px;  border:0px  solid yellow }
+#remember_me    { width:50px;  }
+.rowremember label  {   position:relative; top:-5px;  }
+.pagelogin  input.btn { color:#ffffff; background-color:#144786;  }
+div.controls  input { text-align: center;}
+div.address_block div.controls   input.input {width:250px; height:30px; font-size:20px; margin-bottom:10px}
+div.filters    input.button {padding:0px; height:25px}
+#user-registration  p  { font-size:20px; }
+div.control-label  label { font-size:20px; }
+
+
+a.btn {text-decoration:none}
+#checkout  a {font-size:20px; text-decoration: underline}
+#checkout div.td_1,#checkout div.td_2 { width:300px; text-align:center; padding:10px 34px;   }
+#checkout div.td_1:hover, #checkout div.td_2:hover {  background-color:#1f70d4 }
+#checkout div.td_2 { float:right;}
+#checkout a div.td_1, #checkout a div.td_2  { color:#ffffff; text-decoration:none;  font-weight:400;   }
+table.cart div.count_block {display:none}
+
+div.alert {font-size:30px; background-color:#f5d315;  padding:10px}
+
+
+      /* filter part */
+ div.form_sort_count select {position:relative; top:-1px; left:0px; margin-left:20px; }
+ div.form_sort_count input  {position:relative; top:0px; left:0px; font-size:16px; height:16px }
+ div.box_manufacrurer   {margin:15px 0; }
+ div.filter_price   {}
+ #sort_count input.btn  {width:100px}
+ div.filter_price .box_price_from, div.filter_price .box_price_to   { border:0px solid #0d30b3; height:22px;  }
+select#order   { position:relative; top:-5px; }
+#sort_count   #price_from, #sort_count   #price_to  {margin:0; height:22px; width:100px}
+#sort_count .clear_filter  { font-size:16px; }
+div.filter_price input  { position:relative; top:0px;  border:1px solid #0d30b3; }
+div.filter_price  div.box_button  div.controls  { border:0px solid #0d30b3;  position:relative; top:-10px;  }
+div.filter_price  div.box_button  div.controls input.button   {font-size:16px;}
+
+ /*  kratko  filtr
+ div.form_sort_count select {position:relative; top:0px; left:0px; margin-left:0px; }
+ div.form_sort_count input  {position:relative; top:0px; left:0px; font-size:16px; height:16px }
+ #sort_count   {width:100%;  margin:10px 0 40px 0 }
+ div.block_sorting_count_to_page,  div.box_manufacrurer, div.box_category   { border:0px solid brown; width:40%; display:inline-block; float: left; }
+ div.sorting {  display:inline; }
+  div.box_products_sorting   { position:relative; left:0px; top:2px;}
+ div.sorting span span {padding:5px 0px 5px 10px; margin-left:0px; background-color:#fff; font-weight:500;  cursor:pointer}
+  div.box_manufacrurer, div.box_category  { position:relative; left:0px; top:-8px; margin-left:150px}
+.form-horizontal div.box_category  div.control-label  { border:0px solid brown; width:100px;}
+ #manufacturers, #categorys  {padding:4px 10px; font-weight:500; position:relative; left:0px; top:-2px; border:0 }
+                                */
+
+
+
+ #comjshop  .cart  td.quantity  input[type=text] {text-align:center; border:1px solid #0d30b3; font-size:17px; line-height:19px }
+
+ .cart .manufacturer,.cart  p.jshop_cart_attribute,  .cart .jshop_code_prod { font-size:14px; line-height:15px  }
+
+ /* order  */
+ #comjshop form.form-horizontal   div.jshop_register div.control-group   div.control-label   {display:inline-block; width:150px !important;  border:0px solid #757576; height:50px }
+ #comjshop   form.form-horizontal div.jshop_register div.control-group   div.controls        {display:inline-block;   border:0px solid #757576; height:50px }
+
+    /* search module  */
+div.moduletable_joomshoppingsearch  form input   { border:1px solid #0597c9;  line-height:26px;  height:26px }
+div.moduletable_joomshoppingsearch  form input.inputbox   {width:110px; }
+div.moduletable_joomshoppingsearch  form input.button  {width:82px; padding:0 5px;  text-align:center;  font-size:14px; line-height:26px;  height:28px }
+
+
+div.button_back input     {width:100px; padding:5px;  text-align:center; font-size:20px; border:none  }
+
+.btn.btn-arrow-left, .btn.btn-arrow-left:hover, .btn.btn-arrow-left:focus,
+.btn.btn-arrow-right, .btn.btn-arrow-right:hover, .btn.btn-arrow-right:focus
+{        background-image: none; padding:0px; }
+
+
+
+ #table_shippings  div.name {font-size:23px; margin:10px 0;  border:2px solid #ffffff}
+ #table_shippings  div.name:hover {border:2px solid #0b70b7 }
+
+    /*  related
+    #list_related table tr td {display:table-row-group}
+    #list_related div.description {display:none}
+    #list_related hr {display:none}
+    #list_related   div.buttons   {display:-none}
+    #list_related * {text-align:center; }
+    #list_related div.jshop_related         {border:2px solid #048fa0; padding:10px}
+    #list_related div.jshop_related:hover   {border:2px solid #6ba8fc}
+    #list_related  table {border-width:0px}
+    */
+
+
+
+/* login module */
+div.moduletablelogin * {text-align:center}
+div.moduletablelogin table, div.moduletablelogin input.button {width:100%; margin:auto}
+div.moduletablelogin   {margin:0px 0; margin-top:9px; border:0px solid green; height:80%; vertical-align:middle;font-size:17px  }
+div.moduletablelogin label, div.moduletablelogin input {display:inline; display:block; margin-right:4px }
+div.moduletablelogin input {width:95%; height:26px; font-size:18px }
+div.moduletablelogin .button  {  width:216px; text-align:center; height:30px; margin:5px 0}
+div.moduletablelogin  a {font-size:16px  }
+ #form-login-remember  label {font-size:14px}
+ #form-login-remember input  {height:14px}
+
+
+
+div.box_manufacrurer div.controls, div.box_products_sorting  div.controls { position:relative; left:20px;}
+ div.manufactuter_list  div.jshop_menu_level_0 {padding:5px 0}
+
+
+
+
+
+
+
+
+ /*  filtr  module  */
+div.filtr {background-color:#d1d1d1; padding:5px; border:0px solid #757576; border-radius:10px; }
+div.characteristic_name, span.box_manufacrurer  {font-weight:800; margin:0 0 15px 0}
+div.filter_characteristic { border:0px solid brown ; width:100%;  width:100%; display: flex;flex-direction: row; height: 100%;  align-items: center;  flex-wrap: wrap;  justify-content:space-between;  align-content: start; align-items: start; }
+div.characteristicitem     {  border:0px solid green; width:30%;  }
+#left div.characteristicitem     {  border:0px solid green; width:100%;  }
+
+/*  form-search component   */
+ #form_adv_search  *  { font-size: 20px;     line-height: 25px;  }
+  #searchcateg, #searchmanuf   {  border:1px solid #fff; width:40%; height:80px;  float:left}
+ #form_adv_search input.button   {width:50%; background-color:#e31e25; color:#fff ;  line-height: 35px;}
+ #form_adv_search  div.control-group   {margin:10px auto; padding:0 }
+ #form_adv_search #searchcateg, #form_adv_search #searchmanuf { padding:10px 10px 20px 10px; background-color:#85b9f8; height:auto  }
+ #form_adv_search #searchcateg .control-label, #form_adv_search #searchmanuf .control-label { color:#fff; margin-bottom:6px   }
+ #form_adv_search div.controls input   {  border:2px solid #5cb2f4;  font-size:18px; height:39px; line-height:39px;  }
+ #form_adv_search div.controls input.input, #form_adv_search div.controls input.inputbox    {  width:750px; }
+  #form_adv_search   div.pricerangewrapper { border:0px solid #f45d62; width:100%; height:100px; float:none; clear:both; }
+ #form_adv_search   div.pricerange {  border:0px solid #f45d62; width:40%; height:70px;  float:left}
+ #form_adv_search   div.pricerange      div.control-label    { border:0px solid #f45d62; }
+ #form_adv_search  div.controls  input#price_from,
+ #form_adv_search  div.controls  input#price_to {  width:150px; margin:0px 0; font-size:18px; }
+ #form_adv_search select {font-size:18px; width:300px;  height:40px;  line-height:40px; }
+ #form_adv_search #JSHOP_SEARCH_FOR {margin-top:10px}
+ #form_adv_search #JSHOP_SEARCH_FOR *     {font-size:18px;   }
+ #form_adv_search   #JSHOP_SEARCH_FOR input {  width:50px; border:1px dotted green;  }
+ #form_adv_search  #row2 div.control-group   { display:  inline-block  ;  border:1px dotted green; width:40%;  min-height:100px; margin:10px; padding:10px }
+ #form_adv_search   .characteristic_val  input     {  position:relative; top:10px; left:0px  }
+ #form_adv_search span.characteristic_name, #form_adv_search .control-label { font-weight:800;    }
+ #form_adv_search div.controls input.btn-primary  { width:400px; height:50px }
+ #form_adv_search label {  position:relative; top:50px;  }
+ #form-horizontal #row2 div.filter_characteristic    div.control-group    {float:left ;border:1px dotted green; }
+
+
+  /* cartform  */
+#cartformwrapper  {  position:fixed; top:230px;width:100%; margin:auto;  }
+#cartform *  {  text-align:center; font-size:26px; line-height:30px; text-decoration:none  }
+#cartform  { width:40%; margin:auto; border-radius:0px;padding:20px; background-color:#10b318;}
+#cartform h2  { color:#fff; margin:20px 0}
+#cartform  table { width:100%; margin:auto;}
+#cartform  table tr td  { width:50%; border:0px solid #fff;  }
+#cartform  table tr td  div  {  border-radius:10px;  cursor:pointer;  background-color: #fe0402; color: #fff;  font-size:20px; line-height:30px; margin:auto 20px; padding: 10px 5px   }
+#cartform  table tr td  div:hover  {    background-color: #5b7bf4 }
+
+
+ /* buttons  */
+ .productfull .buttons input.button,
+ div.login_block  input.button,
+ div.address_block  div.controls input.button,
+ div.buttons a,
+ div.checkout_pfinish_block  div.box_button  input.button,
+ #shipping_form  input.button, div.box_button input.button, div.address_block div.controls input.button,
+  input#payment_submit,
+  .jshop_register input.button,
+   div.control-group  button.btn,
+  div.table_order_list     button.btn,
+  div.box_button input.button, #table_payments input#payment_submit,
+  div.jd-item-page  .jorange,
+  #checkout div.td_2 a,
+  #div_delivery input, #shipping_form  input.button,#comjshop  div.address_block  div.controls input.button,
+  #table_payments input#payment_submit,
+ div.moduletablejoomshoppinglogin   input.button,
+ form.form-validate button.btn,
+ div.register,
+ div.jshop_list_product table a div,
+ #checkout a div.td_2
+ {  background-color:#0d30b3 !important;
+ text-decoration:none; text-align:center;  cursor:pointer;
+ padding:0px 34px;  padding:0px 0px; border-radius: 4px;
+ color: #ffffff; font-weight: 400;font-size: 20px;
+  line-height:46px; height:46px; width:270px;
+margin:auto 10px; transition: 0.4s ease-out;
+}
+
+div.jshop_list_product table a div {padding:0px 0px;  }
+div.label_products
+div.jshop_prod_attributes select {font-size:17px;  border:1px solid green; }
+
+

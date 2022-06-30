@@ -1,0 +1,197 @@
+html
+ {  margin:0; padding:0 ;font-size:14px; background-color:#fafcff; }
+
+
+
+ *  {   padding:0; margin:0; border-collapse:collapse; text-decoration:none; text-align: left;
+
+  font-family: 'Ubuntu', Helvetica, sans-serif;    }
+
+
+@font-face
+{  font-family: "Sansation";
+src:    url('/dop/sansation/Sansation-Regular.ttf') format("truetype");
+ }
+
+
+
+img {border:0; }
+a {text-decoration:underline;}
+
+#headtable  {width:100%;    border:0px solid green; height:auto; margin-top:40px   }
+#headtable  tr td {text-align:center; vertical-align:middle;}
+
+ /* title */
+div.customtitle  p  { display:visually-hidden ; color:#1C88EC;   text-align: left;  position:relative; top:0px; font-size:19px; line-height:23px; font-weight:500; font-family: "Sansation", courier,  sans-serif;   }
+div.customtitle  p strong  { color:#1C88EC; text-align: left;  position:relative; top:0px; font-size:32px; line-height:50px; font-weight:600; font-family:  'Montserrat', courier, sans-serif; }
+
+ #headtable div.letter  {background-color:#1C88EC; color:#fff; border-radius:4px;  }
+
+        /* phones */
+
+div.customphones  {text-align: left; position:relative; top:0px; left:0px; margin-left:20px;  margin-top:0px; margin-bottom:0px  }
+div.customphones  p, div.customphones a  { text-align: left;  position:relative; top:0px; font-size:16px; line-height:25px }
+div.customphones  p strong, div.customphones  strong a { text-align: left;  position:relative; top:0px; font-size:23px; line-height:30px; font-weight:400; }
+div.customphones img { position:relative; top:0px; left:0px}
+div.customphones a {  text-decoration:none; color:#000000}
+
+#flexdiv   { border:0px solid brown ;
+  width:100%; display: flex;
+  flex-direction: row; height: auto;  align-items: right;  flex-wrap: wrap;  justify-content:flex-end;  align-content: start;  align-items: center; margin:auto;
+ }
+ #flexdiv  div.moduletable,   #flexdiv  div.moduletablephones { width:auto}
+
+
+#flexdiv div.moduletable img { width:30px }
+
+ #menu   *  { text-align:right;}
+
+#tdemblema img {height:120px}
+ /* hor menu  */
+div.moduletablehormenu *  { text-align:right;}
+div.moduletablehormenu  {background-color:none ; width:100%;  margin:0; padding:10px 0; text-align:center; border:0px solid brown   }
+div.moduletablehormenu span  { padding:0 0px  0 30px ; text-align:right;}
+div.moduletablehormenu span  a {  color:#1c88ec; text-align:right; text-decoration:none;  font-size:17px;line-height:30px;  ; padding:0 0px; font-weight:400; color:#1C88EC;  font-family: "Sansation", courier,  sans-serif; }
+div.moduletablehormenu span:hover  a { color:#f8a170  }
+div.moduletablehormenu span.active  a { border-bottom:1px solid #f8a170;  font-weight:600  }
+div.moduletable_usermenu   a,  div.moduletable_usermenu   span {white-space:  nowrap   }
+div.moduletablehormenu   a,  div.moduletablehormenu   span {white-space:  nowrap   }
+div.under div.moduletablehormenu span  a { text-align:center;text-decoration:none;  font-size:20px; ; padding:0 0px; font-weight:400; color:#ffffff }
+
+
+h3#h3banner  {  font-size:50px; ; line-height:55px padding:0 0px; font-weight:400;   }
+
+
+#banner { margin:0px auto;  }
+#banner div.customslider-banner  {  background-color:rgba(0, 170, 238, 0.9); padding:20px }
+#banner div.customslider-banner  p         { font-family: 'Sansation',  courier,  sans-serif;  font-weight:400;  font-size:23px; line-height:40px; color:#ffffff }
+#banner div.customslider-banner  p strong  {  font-family:  'Montserrat', courier, sans-serif; font-weight:600;  font-size:40px; line-height:50px;  color:#ffffff }
+#banner div.customslider-banner  a  { text-decoration:none;   margin:10px 0; text-align:center;  background-color:#fec65a;  display: block;  font-family: 'Sansation',  courier,  sans-serif;  font-weight:400;  font-size:22px; width:150px; line-height:46px; height:46px; color:#000 }
+
+#rukov { margin:0px auto;   }
+#rukov  div.center {  padding:0px 0 0px 0}
+#rukov  div.customrukov   { position:relative; left:70px;  }
+#rukov  div.customrukov #rukov1,#rukov  div.customrukov #rukov2 {   text-align: left;  position:relative; top:0px; font-size:19px; line-height:26px; font-weight:600; width:500px; padding:30px; margin:10px 0 }
+#rukov  div.customrukov  #rukov1   {  background-color:#fec65a;   position:relative; top:-0px; left:-0px; z-index:10 }
+#rukov  div.customrukov #rukov2  {  background-color:#ff9b9b;    position:relative; top:-110px; left:-40px; z-index:1; width:500px; height:80px }
+#rukov  p   {  text-align: left;  position:relative; top:0px; font-size:23px; line-height:30px; font-weight:800; }
+#rukov  p strong  {  text-align: left;  position:relative; top:0px; font-size:35px; line-height:30px; font-weight:800; font-family: "Sansation", courier,  sans-serif; }
+#rukov  div.center {position:relative; top:0}
+#rukov  div.center img  {position:absolute; top:0; right:0}
+
+#banner2 div.center { margin:0px auto;     background-image:url('/images/banner2.png'); background-position:0% 50%; background-repeat:no-repeat; }
+#banner2 div.moduletable_banner2    {margin:90px auto;border:2px dotted #fafcff;}
+#banner2 div.center div.custom_banner2       {margin:100px auto ;;}
+#banner2 div.center div.custom_banner2  {  width:599px; height:193px; background-image:url('/images/banner22.png');background-position:50% 50%; background-repeat:no-repeat;}
+#banner2 div.center div.custom_banner2   p {  font-family: "Sansation", courier,  sans-serif; font-size:20px; line-height:23px;height:23px; font-weight:800;margin:auto; padding:0; width:100%; text-align:center; color:#fff  }
+#banner2 div.center div.custom_banner2  { border:0px solid brown; display: flex;  align-items: center; flex-wrap: wrap; justify-content:center; padding:0px 0   }
+
+  div.moduletable, div.moduletablelabels, div.moduletable_katalog  {border:0px solid #f4595f; float:none; clear:both; width:100% }
+
+
+
+div.middletable2  {  background-image:url('/images/10.png'); background-position:100% 50%; background-repeat:no-repeat; }
+
+  /* breadcrumbs */
+.breadcrumbs, .article-info { padding: 7px;margin: 0 0 18px;list-style: none; font-size:12px; }
+
+
+ div.moduletable h3, div.moduletable_news h3, div.moduletable_katalog h3, div.moduletablelabels h3, div.moduletable_banner2 h3,  div.moduletable_gallery  h3
+ { text-align:center; font-size:27px; line-height:32px; text-transform:uppercase; margin-bottom:10px; font-weight:500;
+  font-family:  'Montserrat', courier, sans-serif;
+   }
+
+
+  div.moduletable_gallery  h3  {margin-top:55px}
+
+
+
+
+
+/* cp */
+div.middletable { width:100% ;  border:0px solid red; background-color:#f7f081; }
+
+#center  {padding:30px 0px 30px 0px; vertical-align:top; border:0px solid green }
+
+
+   /* preim */
+ div.preim { background-color:#3f97e9;  border:0px solid brown; padding:0px 0  }
+  div.preim div.center  { margin:50px auto;  padding:0px 0 }
+ #preim * { text-align:center;  color:#fff;  font-family:  'Montserrat', courier, sans-serif;  }
+ #preim  {  margin:0px auto; width:100%; border-collapse:separate; border-spacing:20px }
+ #preim  tr td {width:25%; vertical-align:top;   }
+ #preim  tr td,  #preim  tr td p  {    font-size:30px; line-height:32px;}
+ #preim  tr td h4  {  min-height:25px; margin:10px auto;  font-size:50px; line-height:55px; font-weight:600;  }
+
+/*   all fonts    */
+div.item-page,  div.item-page p, div.item-page ul li, div.item-page ol li, div.category_description p,
+div.moduletable p, div.moduletable div, div.moduletable li, div.blog p, div.jshop_prod_description, #comjshop_list_product div.description,
+div.manufacturer_name, div.nspArt p, div.jshop_list_product  div.description
+ {   margin:0; padding:0; font-size:17px; line-height:23px; text-align:justify;  }    /*   page    */
+
+div.item-page  a {color:#003399; text-decoration:underline}
+div.item-page p, div.category_description p, div.jshop_prod_description p,  div.item-page ul li,  div.item-page ol li  {margin:15px auto}
+div.item-page ul li,  div.item-page ol li  { text-align:left}
+
+   /* maket */
+div.wrapper { text-align:center; padding:0 0px; float:none; clear:both;  min-width:1100px;   }
+div.center { margin: auto; width:1100px; border:0px solid green;    }
+
+  /* floatlabel */
+ div#floatlabel  div { border:0px solid brown; text-align: center;}
+
+
+ /* polosa snizu */
+div.under {  background-color:#1c88ec;  border-top:5px solid #2895fb; padding:10px 0 }
+div.moduletablepolosa  {text-align: center;  width:100%;  margin:30px auto;    }
+div.moduletablepolosa  *     {text-align: center;   margin:auto;  font-size:16px; line-height:20px; color:#fff }
+div.moduletablepolosa p strong { font-weight:400; }
+#mxcpr, #mxcpr a    { font-size:10px; }
+
+  .mobonly  { display:none  }
+ .notmob    {  display:block;  }
+
+  #primechanie   {   margin:auto;  font-size:16px; line-height:20px; width:400px; position:absolute; top:350px; left:500px }
+
+ #center div.login div.controls input { color:#287908  }
+
+#center table.vert tr td {width:50%; padding:30px 10px; border:0px solid #fff}
+#center table.vert tr td * { text-align:center; margin:auto}
+#center  table.vert tr td p { text-align:center; line-height:26px;  font-size:20px;}
+
+#visformcontainer  { border:0px solid #e4c26a ; width:900px; margin:auto;   }
+div.visforms  h1 {text-align:center;}
+div.visforms  fieldset {border:none}
+div.visforms  input.inputbox,  div.visforms select  {line-height:40px; height:40px; font-size:26px; border:2px solid #4699f6; margin:10px 0 }
+div.visforms  label           {line-height:30px; font-size:20px;  text-align:right;}
+div.visforms    .visBtnCon  input.btn    {background-color:#045fc6; color:#fff; cursor:pointer; cursor:hand; width:50%;margin:30px 0; float:none; text-align:center; line-height:40px; font-size:30px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="redirects">
+		<field
+			name="source[]"
+			type="textredirects"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_SOURCE_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_SOURCE_DESCRIPTION"
+		/>
+		<field
+			name="destination[]"
+			type="textredirects"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_DESTINATION_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_DESTINATION_DESCRIPTION"
+		/>
+		<field
+			name="code[]"
+			type="numberredirects"
+			min="300"
+			default="303"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_CODE_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_CODE_DESCRIPTION"
+		/>
+		<field
+			name="regex[]"
+			type="checkboxredirects"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_REGEX_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_REGEX_DESCRIPTION"
+		/>
+		<field
+			name="cs[]"
+			type="checkboxredirects"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_CS_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_CS_DESCRIPTION"
+		/>
+		<field
+			name="get[]"
+			type="checkboxredirects"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_GET_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_GET_DESCRIPTION"
+		/>
+		<field
+			name="internal[]"
+			type="checkboxredirects"
+			label="COM_SEFWIZARD_REDIRECT_MANAGER_INTERNAL_LABEL"
+			description="COM_SEFWIZARD_REDIRECT_MANAGER_INTERNAL_DESCRIPTION"
+		/>
+	</fieldset>
+</form>

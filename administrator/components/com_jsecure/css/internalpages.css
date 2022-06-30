@@ -1,0 +1,84 @@
+/*****Menu CSS*****/
+.container-fluid.container-main{margin-top:-10px; padding-left:0; padding-bottom: 30px;}
+.container-fluid.container-main .row-fluid{position: relative;}
+.container-fluid.container-main .span2{width: auto; left: 0; background:#333333;  position: absolute; z-index:999; left:-223px; height:100%; padding-bottom:50px;}
+
+.container-fluid.container-main .span2.fixedsidebar{position: fixed; top:120px; height:100%;}
+.desktopview.task-help .container-fluid.container-main .span2.fixedsidebar, .desktopview.task-directory  .container-fluid.container-main .span2.fixedsidebar{top:74px;}
+
+.container-fluid.container-main .span10{ width:calc(100% - 90px); margin-left:90px;}
+.sidebar-nav .nav-list{ padding-left:0; padding-right:0;}
+#sidebar .sidebar-nav .nav-list{padding:20px 15px 20px;}
+#submenu span {display: inline-block; height: 40px; width: 40px; vertical-align: middle; position:relative; background:url('../images/menuicons/sprite.png') no-repeat;}
+.desktopview ul#submenu li:first-child{display:none;}
+ul#submenu li a{line-height: 40px; width: 220px; padding:0; margin:0; position: relative; display:inline-block; text-shadow: unset; color: #ffffff;}
+ul#submenu li:first-child span{background-position:0px 0px;}
+ul#submenu li:nth-child(2) span{background-position:-40px 0;}
+ul#submenu li:nth-child(3) span{background-position:-760px 0;}
+ul#submenu li:nth-child(4) span{background-position:-240px 0;}
+ul#submenu li:nth-child(5) span{background-position:-280px 0;}
+ul#submenu li:nth-child(6) span{background-position:-320px 0;}
+ul#submenu li:nth-child(7) span{background-position:-360px 0;}
+ul#submenu li:nth-child(8) span{background-position:-200px 0;}
+ul#submenu li:nth-child(9) span{background-position:-800px 0;}
+ul#submenu li:nth-child(10) span{background-position:-120px 0;}
+ul#submenu li:nth-child(11) span{background-position:-160px 0;}
+ul#submenu li:nth-child(12) span{background-position:-440px 0;}
+ul#submenu li:nth-child(13) span{background-position:-840px 0;}
+ul#submenu li:nth-child(14) span{background-position:-480px 0;}
+ul#submenu li:nth-child(15) span{background-position:-400px 0;}
+ul#submenu li:nth-child(16) span{background-position:-80px 0;}
+ul#submenu li:nth-child(17) span{background-position:-680px 0;}
+ul#submenu li:nth-child(18) span{background-position:-520px 0;}
+ul#submenu li:nth-child(19) span{background-position:-560px 0;}
+ul#submenu li:nth-child(20) span{background-position:-600px 0;}
+ul#submenu li:nth-child(21) span{background-position:-720px 0;}
+ul#submenu li:nth-child(22) span{background-position:-640px 0;}
+
+/**Hover CSS**/
+ul#submenu li:hover a, ul#submenu li.active a{background-color:#333333; color:#aeaeae;}
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus{background-color:#333333 !important;}
+.nav > li > a:hover, .nav > li > a:focus{/*background-color:#333333;*/}
+ul#submenu li:hover a span{background:url('../images/menuicons/sprite.png') no-repeat;}
+ul#submenu li:first-child:hover span, ul#submenu li.active:first-child span{background-position:0px -40px;}
+ul#submenu li:nth-child(2):hover span, ul#submenu li.active:nth-child(2) span{background-position:-40px -40px;}
+ul#submenu li:nth-child(3):hover span, ul#submenu li.active:nth-child(3) span{background-position:-760px -40px;}
+ul#submenu li:nth-child(4):hover span, ul#submenu li.active:nth-child(4) span{background-position:-240px -40px;}
+ul#submenu li:nth-child(5):hover span, ul#submenu li.active:nth-child(5) span{background-position:-280px -40px;}
+ul#submenu li:nth-child(6):hover span, ul#submenu li.active:nth-child(6) span{background-position:-320px -40px;}
+ul#submenu li:nth-child(7):hover span, ul#submenu li.active:nth-child(7) span{background-position:-360px -40px;}
+ul#submenu li:nth-child(8):hover span, ul#submenu li.active:nth-child(8) span{background-position:-200px -40px;}
+ul#submenu li:nth-child(9):hover span, ul#submenu li.active:nth-child(9) span{background-position:-800px -40px;}
+ul#submenu li:nth-child(10):hover span, ul#submenu li.active:nth-child(10) span{background-position:-120px -40px;}
+ul#submenu li:nth-child(11):hover span, ul#submenu li.active:nth-child(11) span{background-position:-160px -40px;}
+ul#submenu li:nth-child(12):hover span, ul#submenu li.active:nth-child(12) span{background-position:-440px -40px;}
+ul#submenu li:nth-child(13):hover span, ul#submenu li.active:nth-child(13) span{background-position:-840px -40px;}
+ul#submenu li:nth-child(14):hover span, ul#submenu li.active:nth-child(14) span{background-position:-480px -40px;}
+ul#submenu li:nth-child(15):hover span, ul#submenu li.active:nth-child(15) span{background-position:-400px -40px;}
+ul#submenu li:nth-child(16):hover span, ul#submenu li.active:nth-child(16) span{background-position:-80px -40px;}
+ul#submenu li:nth-child(17):hover span, ul#submenu li.active:nth-child(17) span{background-position:-680px -40px;}
+ul#submenu li:nth-child(18):hover span, ul#submenu li.active:nth-child(18) span{background-position:-520px -40px;}
+ul#submenu li:nth-child(19):hover span, ul#submenu li.active:nth-child(19) span{background-position:-560px -40px;}
+ul#submenu li:nth-child(20):hover span, ul#submenu li.active:nth-child(20) span{background-position:-600px -40px;}
+ul#submenu li:nth-child(21):hover span, ul#submenu li.active:nth-child(21) span{background-position:-720px -40px;}
+ul#submenu li:nth-child(22):hover span, ul#submenu li.active:nth-child(22) span{background-position:-640px -40px;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar{ background: #aeaeae !important; }
+
+.sidepanel-overlay, .sidepanel-overlayresize{ position:fixed; width:100%; height:100%; display:none; top:0;}
+.container-fluid.container-main .span2 .mCSB_container{margin-right:0;}
+
+/*.task-basic .container-fluid.container-main .span2{ height: 500px;}*/
+
+@media only screen and (max-width: 768px){
+	.container-fluid.container-main .span2{position:absolute; top: 0; left: -223px; height:auto !important;}
+	.task-help  .container-fluid.container-main .span2{ height: 100% !important;}
+	#sidebar .sidebar-nav .nav-list{padding: 20px 15px;}
+	.container-fluid.container-main .span10{margin-left: 80px; width: calc(100% - 80px);}	
+}
+
+@media only screen and (max-width: 767px){
+	body.mobileview{padding-left:0;}
+	body.mobileview .navbar, body.mobileview .navbar-fixed-top{padding-left:20px;}
+	body.mobileview .header{padding-left:40px;}
+	body.mobileview .subhead-collapse.collapse{padding-left:20px;}
+}

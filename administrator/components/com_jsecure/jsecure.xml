@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5" method="upgrade">
+	<name>jsecure</name>
+	<author>Ajay Lulia</author>
+	<authorEmail>ajay.lulia@joomlaserviceprovider.com</authorEmail>
+	<creationDate>2008-08-28</creationDate>
+	<copyright>This component is released under the GNU/GPL License</copyright>
+	<authorUrl>www.joomlaserviceprovider.com</authorUrl>
+	<version>3.5</version>
+	<subscription_cat_id>3</subscription_cat_id>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<description>jSecure Authentication has been successfully installed.</description>
+	<installfile>install.jsecure.php</installfile>
+	<uninstallfile>uninstall.jsecure.php</uninstallfile>
+  	<scriptfile>script.php</scriptfile>  
+	<install>
+       <sql>
+             <file driver="mysql" charset="utf8">sql/install.mysql.utf8.sql</file>
+       </sql>
+    </install>
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>jsecure.php</filename>
+	</files>
+	<administration>
+		<menu img="components/com_jsecure/images/jSecure_icon_16x16.png">COM_JSECURE_AUTHENTICATION</menu>
+		<files folder="admin">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>font</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>views</folder>
+			<folder>models</folder>
+			<folder>language</folder>
+			<folder>sql</folder>
+			<folder>helpers</folder>
+			<filename>common.php</filename>
+			<filename>jsecure.php</filename>
+			<filename>controller.php</filename>
+			<filename>index.html</filename>			
+			<filename>params.php</filename>
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+		</files>
+		<languages folder="admin">
+			<language tag="en-GB">language/en-GB.com_jsecure.ini</language>
+			<language tag="en-GB">language/en-GB.com_jsecure.sys.ini</language>
+
+
+			<language tag="fr-FR">language/fr-FR.com_jsecure.ini</language>
+			<language tag="de-DE">language/de-DE.com_jsecure.ini</language>
+			<language tag="it-IT">language/it-IT.com_jsecure.ini</language>
+			<language tag="es-ES">language/es-ES.com_jsecure.ini</language>
+		</languages>
+	</administration>
+	<plugins>
+	<plugin folder="plugins" plugin="plg_jsecure" name="system -jsecure Plugin" group="system" />
+    </plugins>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="version_info" type="text"
+				    readonly="true"
+					default="3.5"
+					description="COM_BANNERS_FIELD_VERSIONINFO_DESC"
+					label="COM_JSECURE_FIELD_VERSIONINFO_LABEL"
+					size="5"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+	<updateservers>
+        <server type="extension" priority="1" name="jsecure">http://www.joomlaserviceprovider.com/update_xml/jsecure.xml</server>
+    </updateservers>
+</extension>		
